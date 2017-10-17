@@ -1,0 +1,232 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Baby Daily Lists
+% ================
+
+% This is a one-page document that includes many of the usual things a baby
+% needs in his day.
+
+% Copyright (c) 2017 Sean Leather
+% Licensed under CC BY 4.0. See the accompanying LICENSE.txt.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Use 'extarticle' from 'extsizes' for a larger document font size of 14pt. The
+% larger font is useful for people with bad eyesight.
+\documentclass[14pt]{extarticle}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Full page A4 with 1-inch margins
+\usepackage[a4paper,margin=1.5cm]{geometry}
+
+% Use system fonts with XeLaTeX
+\usepackage{fontspec}
+
+% Set the main serif and sans-serif fonts to the locally stored Noto fonts.
+% https://tex.stackexchange.com/a/12568/16670
+\setmainfont
+  [ Path = ./fonts/NotoSerif/
+  , Extension = .ttf
+  , UprightFont = *-Regular
+  , ItalicFont = *-Italic
+  , BoldFont = *-Bold
+  , BoldItalicFont = *-BoldItalic
+  ]{NotoSerif}
+\setsansfont
+  [ Path = ./fonts/NotoSans/
+  , Extension = .ttf
+  , UprightFont = *-Regular
+  , ItalicFont = *-Italic
+  , BoldFont = *-Bold
+  , BoldItalicFont = *-BoldItalic
+  ]{NotoSans}
+
+% Support AMS symbols
+\usepackage{amssymb}
+
+% Support text colors
+\usepackage{xcolor}
+
+% Define a command for a de-emphasized "or" for alternative options.
+\NewDocumentCommand{\Or}{}{~~{\small\textcolor{gray}{/}}~~}
+
+% Use 'easylist' for the 'checklist'-style lists
+\usepackage[at]{easylist}
+
+% Copyright footer
+% Adapted from http://latex.org/forum/viewtopic.php?t=6835
+\usepackage{fancyhdr}
+\pagestyle{fancy}% Used to customize the header and footer
+\fancyhf{}% Clear the header and footer
+\renewcommand\headrulewidth{0pt}% Remove the header rule
+\fancyfoot[C]{\small \copyright 2017 Sean Leather. CC BY 4.0.}% Actual footer
+
+% Define a command for the page layout. The arguments are the sections.
+\newcommand{\PageLayout}[3]{%
+% For some reason, the following \NewDocumentCommand does not work. It
+% complains that the paragraph ended before \PageLayout was complete.
+%\NewDocumentCommand{\PageLayout}{mmm}{%
+  \noindent%
+  \begin{minipage}[.45\textheight]{\textwidth}#1\end{minipage}%
+  \vfill%
+  \noindent%
+  \begin{minipage}[.45\textheight]{.33\textwidth}#2\end{minipage}%
+  \hfill%
+  \begin{minipage}[.45\textheight]{.63\textwidth}#3\end{minipage}%
+}
+
+% Use LaTeX3 packages
+\usepackage{expl3}
+\usepackage{xparse}
+
+% Define a command to replicate table rows. Each row includes the \\ at the end.
+% Adapted from https://tex.stackexchange.com/a/62178
+\ExplSyntaxOn
+\tl_new:N \l_rows_tl
+
+\cs_new_protected:Npn \protected_repeat_row:nn #1 #2 {
+  \tl_clear:N \l_rows_tl
+  \prg_replicate:nn{#1}{\tl_put_right:Nn \l_rows_tl{#2 \\}}
+  \tl_use:N \l_rows_tl
+}
+
+\NewDocumentCommand{\ReplicateRow}{mm}{
+  \protected_repeat_row:nn{#1}{#2}
+}
+\ExplSyntaxOff
+
+% Use 'tabularx' tables.
+% https://en.wikibooks.org/wiki/LaTeX/Tables#The_tabularx_package
+\usepackage{tabularx}
+
+% Ragged column types for 'tabularx':
+% Align to one side and fill out the available space.
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}% Left align (space right)
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%  Right align (space left)
+
+% Define a command to format a section header.
+\NewDocumentCommand{\SectionHeader}{m}{\textsf{\textbf{#1}}\medskip}
+
+% Define a command for an empty underline to be used in a form. The height of
+% the line is hardcoded, and the width is provided in an argument.
+\NewDocumentCommand{\Line}{m}{
+  % From https://tex.stackexchange.com/a/179192/16670
+  \rule{#1}{0.15mm}
+}
+
+% Define a command to insert a makeshift check box.
+\NewDocumentCommand{\Checkbox}{}{\ensuremath{\square}}
+
+% Define a command to create a table with a header and replicated rows.
+\NewDocumentCommand{\TableWithHeaderAndReplicatedRows}{mmm}{
+  % Adjust vertical padding for the table
+  \renewcommand{\arraystretch}{1.5}
+
+  % Table with column spec, header, and row to be replicated
+  \begin{tabularx}{\textwidth}{#1}
+    #2 \\
+    \hline
+    \ReplicateRow{10}{#3}
+  \end{tabularx}
+
+}
+
+% Define a command to format instructions.
+\NewDocumentCommand{\Instructions}{m}{
+  \noindent
+  % Left-justified to avoid unseemly fully-justified spacing.
+  \raggedright
+  % Instructions are not generally needed after the initial read, so we make
+  % the font size small to consume less space. 
+  {\small\textit{Instructions:} #1}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Title and date
+\noindent
+\begin{tabularx}{\textwidth}{ l R }
+  \noindent\textsf{\textbf{\Large{}Baby Daily Lists}} &
+  Date:~\Line{5cm}
+\end{tabularx}
+
+% Skip vertical space
+\vfill
+
+\noindent
+\Instructions{Write the date above. Fill in each section as instructed.}
+
+% Skip vertical space
+\vfill
+
+\PageLayout{%%%%% Top %%%%%
+
+  \SectionHeader{Bottle Feedings}
+
+  \Instructions{Circle B (breast milk) or F (formula). Write the
+  initial volume and time made. Write the remaining volume and time finished.
+  Calculate the final volume.}
+
+  % Table with 5 columns
+  \TableWithHeaderAndReplicatedRows{l l L l L l}{%
+    Type &
+    Initial &
+    Time &
+    Remaining &
+    Time &
+    Final
+  }{%
+    B~\Or~F &
+    \Line{2cm}~ml &
+    \Line{2cm} &
+    \Line{2cm}~ml &
+    \Line{2cm} &
+    \Line{2cm}~ml
+  }
+
+}{%%%%% Bottom Left %%%%%
+
+  \SectionHeader{Nappy Changes}
+
+  \Instructions{Circle Pee or Poo. Write the time changed.}
+
+  \TableWithHeaderAndReplicatedRows{L L}{%
+    Output &
+    Time
+  }{%
+    Pee~\Or~Poo &
+    \hrulefill
+  }
+
+}{%%%%% Bottom Right %%%%%
+
+  \SectionHeader{Nanny's Extra Duties}
+
+  \Instructions{Check the box for the required duty.
+  Fill in any unspecified information or duties.}
+
+  % Adjust vertical padding for the table
+  \renewcommand{\arraystretch}{1.5}
+
+  % A list of items with checkboxes. The combination of the \raggedright column
+  % type (L) and the \hrulefill is used to get a line to the end of the column.
+  \begin{tabularx}{\textwidth}{ l L }
+    \Checkbox & Sweep rooms:~\hrulefill \\
+    \Checkbox & Mop rooms:~\hrulefill \\
+    \Checkbox & Iron clothes \\
+    \Checkbox & \hrulefill \\
+    \Checkbox & \hrulefill \\
+    \Checkbox & \hrulefill \\
+    \Checkbox & \hrulefill \\
+    \Checkbox & \hrulefill \\
+    \Checkbox & \hrulefill \\
+    \Checkbox & \hrulefill \\
+    \Checkbox & \hrulefill
+  \end{tabularx}
+
+}
+
+\end{document}
