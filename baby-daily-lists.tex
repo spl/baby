@@ -119,7 +119,7 @@
 \NewDocumentCommand{\Checkbox}{}{\ensuremath{\square}}
 
 % Define a command to create a table with a header and replicated rows.
-\NewDocumentCommand{\TableWithHeaderAndReplicatedRows}{mmm}{
+\NewDocumentCommand{\TableWithHeaderAndReplicatedRows}{mmmm}{
   % Adjust vertical padding for the table
   \renewcommand{\arraystretch}{1.5}
 
@@ -127,7 +127,7 @@
   \begin{tabularx}{\textwidth}{#1}
     #2 \\
     \hline
-    \ReplicateRow{10}{#3}
+    \ReplicateRow{#3}{#4}
   \end{tabularx}
 
 }
@@ -162,7 +162,8 @@
 % Skip vertical space
 \vfill
 
-\PageLayout{%%%%% Top %%%%%
+\PageLayout%
+ {%%%%% Top %%%%%
 
   \SectionHeader{Bottle Feedings}
 
@@ -176,7 +177,7 @@
     Initial Vol, Time &
     Remaining Vol, Time &
     Final
-  }{%
+  }{10}{%
     B~\Or~F &
     \Line{2cm}~ml~\Line{2cm} &
     \Line{2cm}~ml~\Line{2cm} &
@@ -192,35 +193,42 @@
   \TableWithHeaderAndReplicatedRows{l | L}{%
     Output &
     Time
-  }{%
+  }{10}{%
     Pee~\Or~Poo &
     \hrulefill
   }
 
 }{%%%%% Bottom Right %%%%%
 
-  \SectionHeader{Nanny's Extra Duties}
+  \SectionHeader{Sleep}
 
-  \Instructions{Check the box for the required duty.
-  Fill in any unspecified information or duties.}
+  \Instructions{Write the times when he sleeps and wakes.}
+
+  \TableWithHeaderAndReplicatedRows{l | L}{%
+    Sleep Time &
+    Wake Time
+  }{5}{%
+    \Line{2cm} &
+    \Line{2cm}
+  }
+
+  % Skip vertical space
+  \bigskip
+
+  \SectionHeader{Extra}
+
+  \Instructions{Use this space for things like chores.}
 
   % Adjust vertical padding for the table
   \renewcommand{\arraystretch}{1.5}
 
   % A list of items with checkboxes. The combination of the \raggedright column
   % type (L) and the \hrulefill is used to get a line to the end of the column.
-  \begin{tabularx}{\textwidth}{ l L }
-    \Checkbox & Sweep rooms:~\hrulefill \\
-    \Checkbox & Mop rooms:~\hrulefill \\
-    \Checkbox & Iron clothes \\
-    \Checkbox & \hrulefill \\
-    \Checkbox & \hrulefill \\
-    \Checkbox & \hrulefill \\
-    \Checkbox & \hrulefill \\
-    \Checkbox & \hrulefill \\
-    \Checkbox & \hrulefill \\
-    \Checkbox & \hrulefill \\
-    \Checkbox & \hrulefill
+  \begin{tabularx}{\textwidth}{ L }
+    \hrulefill \\
+    \hrulefill \\
+    \hrulefill \\
+    \hrulefill
   \end{tabularx}
 
 }
