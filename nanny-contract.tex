@@ -1,0 +1,515 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Nanny Contract
+% ==============
+
+% This is a contract defining the legal relationship between an Employer and an
+% Employee hired as a nanny and domestic worker.
+
+% Copyright (c) 2017 Sean Leather
+% Licensed under CC BY 4.0. See the accompanying LICENSE.txt.
+
+% Sources of inspiration for this contract:
+%
+% * Labour Guide Example Contract of Employement
+%   http://www.labourguide.co.za/contracts-of-employments/228-contract-of-employment-example
+%
+% * Department of Labour Sample Employment Contract
+%   http://www.labour.gov.za/DOL/documents/forms/basic-conditions-of-employment/sample-employment-contract/
+%
+% * Amended Basic Conditions of Employement Act (2002)
+%   http://www.labour.gov.za/DOL/downloads/legislation/acts/basic-conditions-of-employment/Amended%20Act%20-%20Basic%20Conditions%20of%20Employment.pdf
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,11pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% AMS math
+\usepackage{amsmath}
+
+% Support AMS symbols (e.g. \square)
+\usepackage{amssymb}
+
+% Use fonts with XeLaTeX
+\usepackage{fontspec}
+
+% Set the main serif and sans-serif fonts to the locally stored fonts.
+% https://tex.stackexchange.com/a/12568/16670
+\setmainfont
+  [ Path = ./fonts/Charter/
+  , Extension = .otf
+  , UprightFont = *-Regular
+  , ItalicFont = *-Italic
+  , BoldFont = *-Bold
+  , BoldItalicFont = *-BoldItalic
+  ]{Charter}
+\setsansfont
+  [ Path = ./fonts/CooperHewitt/
+  , Extension = .otf
+  , UprightFont = *-Medium
+  , ItalicFont = *-MediumItalic
+  , BoldFont = *-Bold
+  , BoldItalicFont = *-BoldItalic
+  ]{CooperHewitt}
+
+% Set the fonts for the section headers
+\usepackage{titlesec}
+\titleformat*{\section}{\Large\bfseries\sffamily}
+\titleformat*{\subsection}{\large\sffamily}
+\titleformat*{\subsubsection}{\itshape\sffamily}
+
+% Number all the section headers down to and including \paragraph
+% Useful: https://tex.stackexchange.com/q/305220/16670
+\setcounter{secnumdepth}{4}
+
+% Define a command to start a paragraph with no header text
+\NewDocumentCommand{\para}{}{\paragraph{}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Use 'tabularx' tables.
+% https://en.wikibooks.org/wiki/LaTeX/Tables#The_tabularx_package
+\usepackage{tabularx}
+
+% Ragged column types for 'tabularx':
+% Align to one side and fill out the available space.
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}% Left align (space right)
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%  Right align (space left)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% For flowing text over multiple columns
+\usepackage{multicol}
+
+% Create checklists: lists with makeshift checkboxes using \square
+% Adapted from https://tex.stackexchange.com/a/247688/16670
+\usepackage{enumitem}
+\newlist{checklist}{itemize}{1}
+\setlist[checklist]{label=\ensuremath{\square}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Define a command for an empty underline to be used in a form. The height of
+% the line is hardcoded, and the width is provided in an argument.
+\NewDocumentCommand{\Line}{m}{
+  % From https://tex.stackexchange.com/a/179192/16670
+  \rule{#1}{0.15mm}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Left-justify entire document
+\raggedright
+
+\begin{center}
+  {\Huge \textsf{Contract of Employment}}
+
+  \vspace{2cm}
+
+  Entered into between:
+
+  \vspace{0.5cm}
+
+  \Line{0.75\textwidth}
+
+  (herein after referred to as ``the Employer'')
+
+  \vspace{1cm}
+
+  at the address:
+
+  \vspace{0.5cm}
+
+  \Line{0.75\textwidth}
+
+  \Line{0.75\textwidth}
+
+  \Line{0.75\textwidth}
+
+  \Line{0.75\textwidth}
+
+  \vspace{1cm}
+
+  and:
+
+  \vspace{0.5cm}
+
+  \Line{0.75\textwidth}
+
+  (herein after referred to as ``the Employee'').
+
+\end{center}
+
+\noindent\hrulefill %-----------------------------------------------------------
+
+\section{Terms and conditions of employment}
+
+\para The terms and conditions set out herein will constitute the Employee's
+contract with the Employer. Where a basic condition of employment is not
+specifically mentioned, the relevant legislation will be applicable (e.g.\ the
+Basic Conditions of Employment Act, No. 75 of 1997, the Labour Relations Act,
+No. 66 of 1995, amendments to legislation, etc.).
+
+\section{Commencement of employment}
+\label{commencement}
+
+\para This contract will take effect from the date:
+
+\begin{center}
+  \Line{0.75\textwidth}
+
+  (day-month-year)
+\end{center}
+
+\noindent and continue until terminated as in Section~\ref{termination}.
+
+\section{Termination of employment}
+\label{termination}
+
+\para Either the Employer or the Employee may terminate the agreement with
+written notice. In case the Employee is illiterate, the notice may be given by
+the Employee verbally.
+
+\para This contract of employment may be terminated only on notice of not less
+than:
+
+\begin{enumerate}
+  \item 1 week, if the Employee has been employed for 6 months or less; or
+  \item 4 weeks, if the Employee has been employed for more than 6 months.
+\end{enumerate}
+
+\section{Place of work}
+
+\para Place of work:
+
+\begin{center}
+  \Line{0.75\textwidth}
+\end{center}
+
+\section{Job description}
+
+\subsection{Job title}
+\label{job-title}
+
+\para Job title:
+
+\begin{center}
+   \textbf{Child minder (nanny) and domestic worker}
+\end{center}
+
+\subsection{Main duties}
+\label{main-duties}
+
+\para The duties of this position are laid out in the Job Duties found in
+Appendix~\ref{job-duties}.
+
+\para The Job Duties appendix is a part of this contract. Subsequent changes to
+the duties may only be made with consultation with the Employee.
+
+\subsection{Other duties}
+\label{other-duties}
+
+\para Although the Employee has been employed in the position described in
+Section~\ref{job-title} and will therefore be responsible for the duties
+described in Section~\ref{main-duties}, the Employee may be required to perform
+other duties that may reasonably be expected of the Employee from time to time.
+
+\section{Wages and benefits}
+\label{wages}
+
+\paragraph{Monthly wage}\label{monthly-wage} The Employee's total monthly wage
+will be:
+
+\begin{center}
+  R \Line{0.75\textwidth}
+\end{center}
+
+\paragraph{Hourly wage}\label{hourly-wage} This is equivalent to an hourly wage
+(as in Section 35 (Calculation of remuneration and wages) of the Basic
+Conditions of Employment Act, No. 75 of 1997, as amended by the Basic
+Conditions of Employment Act, No. 11 of 2002) of:
+
+\begin{center}
+  R \Line{0.75\textwidth}
+
+  (\((\text{Value of Paragraph~\ref{monthly-wage}}) * 3 / 13 / 42.5 \))
+\end{center}
+
+\para\label{monthly-wage-pay-day} The monthly wage will be paid on the last
+working day of every month.
+
+\para The Employer will review and may revise the wages once a year from the
+date of commencement given in Section~\ref{commencement}.
+
+\paragraph{Meals} The Employee is entitled to 1 meal for every full working
+day.
+
+\paragraph{Clothing} The Employee is entitled to 1 uniform for every 36 months
+of continuous service. 
+
+\paragraph{Overtime}\label{overtime-wage} For overtime, the Employee will be
+paid:
+
+\begin{enumerate}
+  \item one and a half (1.5) times the normal hourly wage, as in\par
+    Paragraph~\ref{hourly-wage},
+  \item at the same time as other wages, as in
+    Paragraph~\ref{monthly-wage-pay-day}.
+\end{enumerate}
+
+\section{Working time}
+\label{working-time}
+
+\para Normal working hours will be:
+
+\begin{center}
+   \textbf{7:30 to 16:30}
+
+   \textbf{Monday to Friday}
+\end{center}
+
+\para The Employee is entitled to a lunch break of 30 minutes during normal
+working hours. This means that a typical week of work is considered to be 42.5
+hours.
+
+\para The Employee will not be required to work on Saturdays, Sundays, or
+public holidays unless agreed to by the Employee and Employer. If agreed, the
+Employee will receive overtime wages, as in Paragraph~\ref{overtime-wage}, for
+the hours worked on such days.
+
+\para Hours worked outside of the normal working hours on days other than
+Saturdays, Sundays, and public holidays are also subject to overtime wages.
+
+\para Overtime will only be worked from time to time if agreed upon between the
+Employer and Employee.
+
+\section{Leave}
+\label{leave}
+
+\para The Employee is entitled to paid leave only as specified in
+Sections~\ref{annual-leave}, \ref{sick-leave},
+and~\ref{family-responsibility-leave}.
+
+\para Unpaid leave is specified in Section~\ref{unpaid-leave}
+
+\subsection{Annual leave}
+\label{annual-leave}
+
+\para The Employee is entitled to 21 days paid annual leave during every 12
+months of continuous employment.
+
+\para Annual leave must be taken at times agreed to by the Employer and the
+Employee to allow for the Employer to arrange care for the child, if necessary.
+
+\para The Employer may require the Employee to take leave at times that
+coincide with the leave of the Employer.
+
+\para Annual leave does not accumulate from year to year.
+
+\para For annual leave, the Employee will be paid:
+
+\begin{enumerate}
+  \item normal wages, as in Paragraph~\ref{monthly-wage},
+  \item at the same time as other wages, as in
+    Paragraph~\ref{monthly-wage-pay-day}.
+\end{enumerate}
+
+\subsection{Sick leave}
+\label{sick-leave}
+
+\para During every sick leave cycle of 36 months (with the exception of
+Paragraph~\ref{sick-leave-first-six-months}), the Employee is entitled to an
+amount of paid sick leave equal to the number of days the Employee would
+normally work during a period of 6 weeks.
+
+\para\label{sick-leave-first-six-months} During the first 6 months of
+employment the Employee is entitled to 1 day's paid sick leave for every 26
+days worked.
+
+\para The Employee must notify the Employer as soon as possible in case of an
+absence from work for illness.
+
+\para A medical certificate is required if the Employee is absent for more than
+2 consecutive days or has been absent on more than 2 occasions during an 8-week
+period. If no medical certificate is provided on request, the Employer is not
+required to pay the Employee.
+
+\para Sick leave does not accumulate from year to year.
+
+\para For sick leave, the Employee will be paid:
+
+\begin{enumerate}
+  \item normal wages, as in Paragraph~\ref{monthly-wage},
+  \item at the same time as other wages, as in
+    Paragraph~\ref{monthly-wage-pay-day}.
+\end{enumerate}
+
+\subsection{Family responsibility leave}
+\label{family-responsibility-leave}
+
+\para The Employee is entitled to 3 days paid family responsibility leave
+during every 12 months of continuous employment.
+
+\para Family responsibility leave may be taken:
+
+\begin{enumerate}
+  \item when the Employee's child is born,
+  \item when the Employee's child is sick, or
+  \item in the event of the death of the Employee's spouse, parent,
+    grandparent, grandchild, or sibling.
+\end{enumerate}
+
+\para The Employee must notify the Employer as soon as possible in case of an
+absence from work for family responsibility.
+
+\para Family responsibility leave does not accumulate from year to year.
+
+\para For family responsibility leave, the Employee will be paid:
+
+\begin{enumerate}
+  \item normal wages, as in Paragraph~\ref{monthly-wage},
+  \item at the same time as other wages, as in
+    Paragraph~\ref{monthly-wage-pay-day}.
+\end{enumerate}
+
+\subsection{Unpaid leave}
+\label{unpaid-leave}
+
+\para Unpaid leave may be granted to the Employee when:
+
+\begin{enumerate}
+  \item annual leave has been depleted,
+  \item sick leave cannot be reasonably substantiated or has been depleted, and
+  \item family responsibility leave cannot be reasonably substantiated or has
+    been depleted.
+\end{enumerate}
+
+\para The Employee may apply in writing to be granted unpaid leave for an
+extended period not exceeding 1 month in exceptional circumstances. The
+application must be fully motivated. The Employer is not obliged to approve
+such an application.
+
+\para If the Employee is absent from duty without prior arrangement or
+permission, the Employer may regard any period of such absence as unpaid leave.
+This does not preclude the Employer from taking disciplinary measures against
+the Employee in terms of this contract.
+
+\para For unpaid leave, the Employee is not entitled to wages.
+
+\section{General}
+\label{general}
+
+\para Any changes to this contract will only be valid if they are in writing
+and have been agreed upon and signed by both parties.
+
+% New page
+\pagebreak
+
+\section{Signatures}
+\label{signatures}
+
+\vspace{1cm}
+
+\begin{center}
+  Thus done and signed at:
+
+  \vspace{0.5cm}
+
+  \Line{0.75\textwidth}
+
+  (location)
+
+  \vspace{1cm}
+
+  on:
+
+  \vspace{0.5cm}
+
+  \Line{0.75\textwidth}
+
+  (day-month-year)
+
+  \vspace{1cm}
+
+  by:
+
+  \vspace{0.5cm}
+
+  \Line{0.75\textwidth}
+
+  (the Employer's signature)
+
+  \vspace{1cm}
+
+  and:
+
+  \vspace{0.5cm}
+
+  \Line{0.75\textwidth}
+
+  (the Employee's signature)
+
+  \vspace{1cm}
+
+  with witnesses (names and signatures):
+
+  \vspace{0.5cm}
+
+  \Line{0.75\textwidth}
+
+  \vspace{0.5cm}
+
+  \Line{0.75\textwidth}
+
+\end{center}
+
+% New page
+\pagebreak
+
+\appendix
+
+\section{Job duties}
+\label{job-duties}
+
+\begin{multicols}{2}
+  \raggedcolumns
+  \raggedright
+  \begin{enumerate}
+    \item Minding a child
+      \begin{itemize}
+        \item Feeding breast milk and formula from bottles
+        \item Feeding solids
+        \item Changing nappies and wiping the child
+        \item Exercising and entertaining the child
+      \end{itemize}
+    \item House cleaning
+      \begin{itemize}
+        \item Sweeping floors
+        \item Mopping floors
+        \item Dusting
+        \item Wiping appliances (e.g.\ TV, etc.)
+        \item Cleaning walls, light switches, doors, etc.
+        \item Cleaning kitchen counters
+        \item Cleaning toilets, basins, baths, showers, taps, etc.
+        \item Cleaning cupboards
+        \item Cleaning stoves or ovens
+        \item Cleaning refridgerator and freezer
+        \item Cleaning windows and glass doors
+        \item Removing refuse for collection
+      \end{itemize}
+    \item Laundry
+      \begin{itemize}
+        \item Hand washing
+        \item Hanging laundry to dry
+        \item Folding laundry
+        \item Washing curtains
+        \item Ironing
+      \end{itemize}
+  \end{enumerate}
+\end{multicols}
+
+\end{document}
