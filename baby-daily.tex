@@ -20,10 +20,10 @@
 % Full page A4 with 1-inch margins
 \usepackage[a4paper,margin=1.5cm]{geometry}
 
-% Use system fonts with XeLaTeX
+% Use fonts with XeLaTeX
 \usepackage{fontspec}
 
-% Set the main serif and sans-serif fonts to the locally stored Noto fonts.
+% Set the main serif and sans-serif fonts to the locally stored fonts.
 % https://tex.stackexchange.com/a/12568/16670
 \setmainfont
   [ Path = ./fonts/NotoSerif/
@@ -50,9 +50,6 @@
 
 % Define a command for a de-emphasized "or" for alternative options.
 \NewDocumentCommand{\Or}{}{~~~}
-
-% Use 'easylist' for the 'checklist'-style lists
-\usepackage[at]{easylist}
 
 % Copyright footer
 % Adapted from http://latex.org/forum/viewtopic.php?t=6835
