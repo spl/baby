@@ -10,13 +10,23 @@ script:
 # Resources:
 # * https://docs.travis-ci.com/user/deployment/releases/
 # * https://github.com/jackolney/travis-ci-latex-pdf
+# * https://victorhurdugaci.com/github-releases-travis
 deploy:
+  # Push to GitHub releases
   provider: releases
+  # Encrypted GitHub API key
   # See https://docs.travis-ci.com/user/encryption-keys/
   api_key:
     secure: BYsIQ/EA5DjcH3tG6BAz0lIa98bjvsEK6OUS1rML2O/dFsLmwL2Zp3Bj0jhP3tgW9F2lzy2w2VKGTx5g4AkclOLuvLkRuDavBGh03ufYrJd8EfTfV64C4k6O2U/PXvyH2+3+u1euwEZLZUvhB+pbj6Vrgy1eWtm/exzsvAcmct73Zs3ctui8TuCEkjzzTA/YrVDw28B6qK1aCe1yb3ZjtFTfAU8qAcG43YUxTnBJJOYI2z51ulU7YmTm0C7rYYJMEmtja+YhhJ+IhXlkgx+ZKxOYq08OOrMN5f5qql16SOPQrbKGKjHZrnfs9xRGDcFXZDUEDse+XLEeS6nq9IEcq+eDIE0WmrXqOecZZ4mkTXz2atOmxsOw3oqiVND2Tw4D7HmU3hL/e3LhCxloIXCRZrEGws7QR3V8mdCYt4K0xKK3yej17Rnadncf0wzrZzjyaDjt1pk0VJNpHoidhR4qNOlBURAHscrLShGPsnSGRyBTnVMrdZrP0K85YIfjhhVBckFDaOJIvlOsqlK+vfbCYL+Tv92E2cm/B3D9hHXgXBa2CrAYDiwaPsi8DaqRKY+rWhJKA9cPRaovxBkMAq2OmDfEACd+Z7e0BCjMif11Wgi1xJc4eGN7v7A/9PFZncz2YpIwB+n0L4O17nW+215/SC/wYwVN2zSvGYHO2K4mrrc=
-  file_glob: true
+  # Files to be released
   file: '*.pdf'
+  # Recognize the file glob above
+  file_glob: true
+  # Prevent deleting build files
   skip_cleanup: true
+  # Trigger deployment on...
   on:
+    # ... only this repository.
+    repo: spl/baby
+    # ... only when tagged.
     tags: true
