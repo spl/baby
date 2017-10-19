@@ -26,6 +26,9 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Decrease margins
+\usepackage[margin=2cm]{geometry}
+
 % AMS math
 \usepackage{amsmath}
 
@@ -77,17 +80,6 @@
 % Align to one side and fill out the available space.
 \newcolumntype{L}{>{\raggedright\arraybackslash}X}% Left align (space right)
 \newcolumntype{R}{>{\raggedleft\arraybackslash}X}%  Right align (space left)
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% For flowing text over multiple columns
-\usepackage{multicol}
-
-% Create checklists: lists with makeshift checkboxes using \square
-% Adapted from https://tex.stackexchange.com/a/247688/16670
-\usepackage{enumitem}
-\newlist{checklist}{itemize}{1}
-\setlist[checklist]{label=\ensuremath{\square}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -204,11 +196,11 @@ than:
 \subsection{Main duties}
 \label{main-duties}
 
-\para The duties of this position are laid out in the Job Duties found in
-Appendix~\ref{job-duties}.
+\para The duties of this position are laid out in the \textit{Job duties} found
+in Appendix~\ref{job-duties}.
 
-\para The Job Duties appendix is a part of this contract. Subsequent changes to
-the duties may only be made with consultation with the Employee.
+\para The \textit{Job duties} appendix is a part of this contract. Subsequent
+changes to the duties may only be made with consultation with the Employee.
 
 \subsection{Other duties}
 \label{other-duties}
@@ -406,11 +398,9 @@ the Employee in terms of this contract.
 \para Any changes to this contract will only be valid if they are in writing
 and have been agreed upon and signed by both parties.
 
-% New page
-\pagebreak
+\vspace{1cm}
 
-\section{Signatures}
-\label{signatures}
+\noindent\hrulefill %-----------------------------------------------------------
 
 \vspace{1cm}
 
@@ -475,41 +465,41 @@ and have been agreed upon and signed by both parties.
 \section{Job duties}
 \label{job-duties}
 
-\begin{multicols}{2}
-  \raggedcolumns
-  \raggedright
-  \begin{enumerate}
-    \item Minding a child
-      \begin{itemize}
-        \item Feeding breast milk and formula from bottles
-        \item Feeding solids
-        \item Changing nappies and wiping the child
-        \item Exercising and entertaining the child
-      \end{itemize}
-    \item House cleaning
-      \begin{itemize}
-        \item Sweeping floors
-        \item Mopping floors
-        \item Dusting
-        \item Wiping appliances (e.g.\ TV, etc.)
-        \item Cleaning walls, light switches, doors, etc.
-        \item Cleaning kitchen counters
-        \item Cleaning toilets, basins, baths, showers, taps, etc.
-        \item Cleaning cupboards
-        \item Cleaning stoves or ovens
-        \item Cleaning refridgerator and freezer
-        \item Cleaning windows and glass doors
-        \item Removing refuse for collection
-      \end{itemize}
-    \item Laundry
-      \begin{itemize}
-        \item Hand washing
-        \item Hanging laundry to dry
-        \item Folding laundry
-        \item Washing curtains
-        \item Ironing
-      \end{itemize}
-  \end{enumerate}
-\end{multicols}
+This appendix describes the main job duties as referenced in
+Section~\ref{main-duties}.
+
+\begin{enumerate}
+  \item Minding a child
+    \begin{itemize}
+      \item Ensuring the safety of the child at all times
+      \item Feeding breast milk and formula from bottles
+      \item Feeding solids
+      \item Changing nappies and wiping the child
+      \item Exercising and entertaining the child
+    \end{itemize}
+  \item Cleaning house
+    \begin{itemize}
+      \item Sweeping floors
+      \item Mopping floors
+      \item Dusting
+      \item Wiping appliances (e.g.\ TV, etc.)
+      \item Cleaning walls, light switches, doors, etc.
+      \item Cleaning kitchen counters
+      \item Cleaning toilets, basins, baths, showers, taps, etc.
+      \item Cleaning cupboards
+      \item Cleaning stoves or ovens
+      \item Cleaning refridgerator and freezer
+      \item Cleaning windows and glass doors
+      \item Removing refuse for collection
+    \end{itemize}
+  \item Laundry
+    \begin{itemize}
+      \item Hand washing
+      \item Hanging laundry to dry
+      \item Folding laundry
+      \item Washing curtains
+      \item Ironing
+    \end{itemize}
+\end{enumerate}
 
 \end{document}
