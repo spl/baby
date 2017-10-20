@@ -20,6 +20,9 @@
 % Full page A4 with 1-inch margins
 \usepackage[a4paper,margin=1.5cm]{geometry}
 
+% No header or footer
+\pagestyle{empty}
+
 % Use fonts with XeLaTeX
 \usepackage{fontspec}
 
@@ -50,14 +53,6 @@
 
 % Define a command for a de-emphasized "or" for alternative options.
 \NewDocumentCommand{\Or}{}{~~~}
-
-% Copyright footer
-% Adapted from http://latex.org/forum/viewtopic.php?t=6835
-\usepackage{fancyhdr}
-\pagestyle{fancy}% Used to customize the header and footer
-\fancyhf{}% Clear the header and footer
-\renewcommand\headrulewidth{0pt}% Remove the header rule
-\fancyfoot[C]{\footnotesize \copyright 2017 Sean Leather. CC BY 4.0.}% Actual footer
 
 % Define a command for the page layout. The arguments are the sections.
 \newcommand{\PageLayout}[3]{%
