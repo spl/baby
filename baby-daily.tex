@@ -51,9 +51,6 @@
 % Support text colors
 \usepackage{xcolor}
 
-% Define a command for a de-emphasized "or" for alternative options.
-\NewDocumentCommand{\Or}{}{~~~}
-
 % Define a command for the page layout. The arguments are the sections.
 \newcommand{\PageLayout}[3]{%
 % For some reason, the following \NewDocumentCommand does not work. It
@@ -63,9 +60,9 @@
   \begin{minipage}[.45\textheight]{\textwidth}#1\end{minipage}%
   \vfill%
   \noindent%
-  \begin{minipage}[.45\textheight]{.33\textwidth}#2\end{minipage}%
+  \begin{minipage}[.45\textheight]{.47\textwidth}#2\end{minipage}%
   \hfill%
-  \begin{minipage}[.45\textheight]{.63\textwidth}#3\end{minipage}%
+  \begin{minipage}[.45\textheight]{.47\textwidth}#3\end{minipage}%
 }
 
 % Use LaTeX3 packages
@@ -79,7 +76,7 @@
 
 \cs_new_protected:Npn \protected_repeat_row:nn #1 #2 {
   \tl_clear:N \l_rows_tl
-  \prg_replicate:nn{#1}{\tl_put_right:Nn \l_rows_tl{#2 \\}}
+  \prg_replicate:nn{#1}{\tl_put_right:Nn \l_rows_tl{\noindent{}#2 \\}}
   \tl_use:N \l_rows_tl
 }
 
@@ -132,7 +129,7 @@
 \noindent
 \begin{tabularx}{\textwidth}{ l R }
   \noindent\textsf{\textbf{\Large{}Baby Daily}} &
-  Date:~\Line{5cm}
+  Start Date:~\Line{5cm}
 \end{tabularx}
 
 % Skip vertical space
@@ -144,58 +141,47 @@
   \SectionHeader{Bottle Feedings}
 
   % Table with 5 columns
-  \TableWithHeaderAndReplicatedRows{l | l | l | l}{%
-    Type &
+  \TableWithHeaderAndReplicatedRows{l | l | l | l | l}{%
+    Date &
+    Mlk &
     Initial Vol, Time &
-    Remaining Vol, Time &
-    Final
-  }{10}{%
-    B~\Or~F &
-    \Line{2cm}~ml~\Line{2cm} &
-    \Line{2cm}~ml~\Line{2cm} &
-    \Line{2cm}~ml
+    Final Vol, Time &
+    Consumed
+  }{12}{%
+    \Line{1cm} &
+    B~~F &
+    \Line{1.5cm}~ml~\Line{2cm} &
+    \Line{1.5cm}~ml~\Line{2cm} &
+    \Line{1.5cm}~ml
   }
 
 }{%%%%% Bottom Left %%%%%
 
   \SectionHeader{Nappy Changes}
 
-  \TableWithHeaderAndReplicatedRows{l | L}{%
+  \TableWithHeaderAndReplicatedRows{l | l | L}{%
+    Date &
     Output &
     Time
-  }{10}{%
-    Pee~\Or~Poo &
-    \hrulefill
+  }{12}{%
+    \Line{1cm} &
+    Pee~~Poo &
+    \Line{2cm}
   }
 
 }{%%%%% Bottom Right %%%%%
 
-  \SectionHeader{Sleep}
+  \SectionHeader{Sleep Time}
 
-  \TableWithHeaderAndReplicatedRows{l | L}{%
-    Sleep Time &
-    Wake Time
-  }{5}{%
+  \TableWithHeaderAndReplicatedRows{l | l L}{%
+    Date &
+    Sleep &
+    Wake
+  }{12}{%
+    \Line{1cm} &
     \Line{2cm} &
     \Line{2cm}
   }
-
-  % Skip vertical space
-  \bigskip
-
-  \SectionHeader{Extra}
-
-  % Adjust vertical padding for the table
-  \renewcommand{\arraystretch}{1.5}
-
-  % A list of items with checkboxes. The combination of the \raggedright column
-  % type (L) and the \hrulefill is used to get a line to the end of the column.
-  \begin{tabularx}{\textwidth}{ L }
-    \hrulefill \\
-    \hrulefill \\
-    \hrulefill \\
-    \hrulefill
-  \end{tabularx}
 
 }
 
