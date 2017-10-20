@@ -129,16 +129,6 @@
 
 }
 
-% Define a command to format instructions.
-\NewDocumentCommand{\Instructions}{m}{
-  \noindent
-  % Left-justified to avoid unseemly fully-justified spacing.
-  \raggedright
-  % Instructions are not generally needed after the initial read, so we make
-  % the font size small to consume less space. 
-  {\small\textit{Instructions:} #1}
-}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -153,20 +143,10 @@
 % Skip vertical space
 \vfill
 
-\noindent
-\Instructions{Write the date above. Fill in each section as instructed.}
-
-% Skip vertical space
-\vfill
-
 \PageLayout%
  {%%%%% Top %%%%%
 
   \SectionHeader{Bottle Feedings}
-
-  \Instructions{Circle B (breast milk) or F (formula). Write the
-  initial volume and time made. Write the remaining volume and time finished.
-  Calculate the final volume.}
 
   % Table with 5 columns
   \TableWithHeaderAndReplicatedRows{l | l | l | l}{%
@@ -185,8 +165,6 @@
 
   \SectionHeader{Nappy Changes}
 
-  \Instructions{Circle Pee or Poo. Write the time changed.}
-
   \TableWithHeaderAndReplicatedRows{l | L}{%
     Output &
     Time
@@ -198,8 +176,6 @@
 }{%%%%% Bottom Right %%%%%
 
   \SectionHeader{Sleep}
-
-  \Instructions{Write the times when he sleeps and wakes.}
 
   \TableWithHeaderAndReplicatedRows{l | L}{%
     Sleep Time &
@@ -213,8 +189,6 @@
   \bigskip
 
   \SectionHeader{Extra}
-
-  \Instructions{Use this space for things like chores.}
 
   % Adjust vertical padding for the table
   \renewcommand{\arraystretch}{1.5}
