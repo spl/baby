@@ -57,12 +57,12 @@
 % complains that the paragraph ended before \PageLayout was complete.
 %\NewDocumentCommand{\PageLayout}{mmm}{%
   \noindent%
-  \begin{minipage}[.45\textheight]{\textwidth}#1\end{minipage}%
+  \begin{minipage}[.55\textheight]{\textwidth}#1\end{minipage}%
   \vfill%
   \noindent%
-  \begin{minipage}[.45\textheight]{.47\textwidth}#2\end{minipage}%
+  \begin{minipage}[.35\textheight]{.47\textwidth}#2\end{minipage}%
   \hfill%
-  \begin{minipage}[.45\textheight]{.47\textwidth}#3\end{minipage}%
+  \begin{minipage}[.35\textheight]{.47\textwidth}#3\end{minipage}%
 }
 
 % Use LaTeX3 packages
@@ -147,7 +147,7 @@
     Initial Vol, Time &
     Final Vol, Time &
     Consumed
-  }{12}{%
+  }{14}{%
     \Line{1cm} &
     B~~F &
     \Line{1.5cm}~ml~\Line{2cm} &
@@ -163,7 +163,7 @@
     Date &
     Output &
     Time
-  }{12}{%
+  }{10}{%
     \Line{1cm} &
     Pee~~Poo &
     \Line{2cm}
@@ -177,7 +177,7 @@
     Date &
     Sleep &
     Wake
-  }{12}{%
+  }{10}{%
     \Line{1cm} &
     \Line{2cm} &
     \Line{2cm}
