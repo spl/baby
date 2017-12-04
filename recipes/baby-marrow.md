@@ -3,7 +3,7 @@
 Baby [marrow](https://en.wikipedia.org/wiki/Marrow_(vegetable)) is a small, long
 green vegetable.
 
-I think it makes an excellent starter food for a baby learning to eat solids:
+I think it is an excellent starter food for a baby learning to eat solids:
 
 * The length makes it easy for the child to hold and put into his mouth.
 * The skin and firmness (but still very soft to the touch after steaming) mean
@@ -12,6 +12,7 @@ I think it makes an excellent starter food for a baby learning to eat solids:
   into his mouth, he may not be very successful at actually eating it, but
   he may still be able to extract some of the juice and get those nutrients as
   well as the taste.
+* It's easy to rinse off the vegetable after the baby drops it on the floor.
 
 ## Preparation
 
