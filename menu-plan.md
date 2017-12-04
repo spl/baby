@@ -21,7 +21,7 @@ Nutrition](https://family1stnutrition.com/).
 
 #### Day 2
 
-* Breakfast: 2 baby marrows
+* Breakfast: 2 baby marrows ([_Notes_](./menu-notes/day-2.md))
 
 #### Day 3
 
