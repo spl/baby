@@ -25,5 +25,5 @@ Nutrition](https://family1stnutrition.com/).
 
 #### Day 3
 
-* Breakfast: 3 baby marrows
+* Breakfast: 3 baby marrows ([_Notes_](./menu-notes/day-3.md))
 * Practice preparing cereal and yogurt balls.
