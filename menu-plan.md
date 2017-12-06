@@ -9,7 +9,7 @@ Nutrition](https://family1stnutrition.com/).
 
 #### Day 0
 
-* Practice preparing [baby marrow](./recipes/baby-marrow.md).
+* Practice preparing [baby marrow](./recipes/baby-marrow.md)
 
 ## Month 1
 
@@ -17,13 +17,25 @@ Nutrition](https://family1stnutrition.com/).
 
 #### Day 1
 
-* Breakfast: 1 [baby marrow](./recipes/baby-marrow.md) ([_Notes_](./menu-notes/day-1.md))
+* Breakfast: 1 [baby marrow](./recipes/baby-marrow.md) ([notes](./menu-notes/day-1.md))
 
 #### Day 2
 
-* Breakfast: 2 baby marrows ([_Notes_](./menu-notes/day-2.md))
+* Breakfast: 2 baby marrows ([notes](./menu-notes/day-2.md))
 
 #### Day 3
 
-* Breakfast: 3 baby marrows ([_Notes_](./menu-notes/day-3.md))
-* Practice preparing cereal and yogurt balls.
+* Breakfast: 2 baby marrows ([notes](./menu-notes/day-3.md))
+* Practice preparing [cereal balls](./recipes/cereal-balls.md)
+
+#### Day 4
+
+* Breakfast: 1 [cereal ball](./recipes/cereal-balls.md), 1 baby marrow ([notes](./menu-notes/day-4.md))
+
+#### Day 5
+
+* Breakfast: 2 cereal balls, 1 baby marrow
+
+#### Day 6
+
+* Breakfast: 2 cereal balls, 1 baby marrow

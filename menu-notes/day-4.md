@@ -1,0 +1,17 @@
+# Day 4 (2017-12-06)
+
+We offered 1 [cereal ball](../recipes/cereal-balls.md) and 1 baby marrow. For
+cereal, we used Purity Rice. (We could not find Purity Maize in the store.)
+
+As with [day 3](./day-3.md), the baby was not very interested in putting food in
+his mouth. It may be the teething (though I'm not fully convinced on that), or
+it may be a phase.
+
+I think it's useful to remind myself at this point that part of the reason for
+the baby-led weaning approach is so that the baby can learn to feed himself.
+There were times during breakfast when I “broke the rules” and offered the baby
+some of the food to his mouth from my hand. I wanted to see if he would take it
+(and get the taste), and he did, to an extent. But I should really let him go at
+his own pace. His motor skills are not yet there, and letting him shove the food
+around is still useful, even if he's not getting the nutrition from it. Patience
+is the name of the game, I suppose.
