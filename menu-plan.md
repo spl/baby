@@ -30,12 +30,22 @@ Nutrition](https://family1stnutrition.com/).
 
 #### Day 4
 
-* Breakfast: 1 [cereal ball](./recipes/cereal-balls.md), 1 baby marrow ([notes](./menu-notes/day-4.md))
+* Breakfast: 1 rice [cereal ball](./recipes/cereal-balls.md), 1 baby marrow ([notes](./menu-notes/day-4.md))
 
 #### Day 5
 
-* Breakfast: 2 cereal balls, 1 baby marrow
+* Breakfast: 2 rice cereal balls, 1 baby marrow
 
 #### Day 6
 
-* Breakfast: 2 cereal balls, 1 baby marrow
+* Breakfast: 2 rice cereal balls, 1 baby marrow
+* Practice preparing chicken puree
+
+#### Day 7
+
+* Breakfast: 1 tsp chicken puree, 1 rice cereal ball
+
+#### Day 8
+
+* Breakfast: 1 tsp chicken puree, 1 rice cereal ball, rice cereal in breast milk ([notes](./menu-notes/day-8.md))
+* Supper: 1 rice cereal ball in formula
