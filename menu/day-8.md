@@ -11,3 +11,9 @@ milk. Contrary to the baby-led weaning method, we did spoon-feed it to him. He
 seemed to like it. He didn't refuse it in the same way he refuses the cereal
 balls and baby marrows when we offer them to him. We're going to try the same
 again for supper.
+
+## Supper
+
+We gave him rice cereal in formula. He seemed to take it better than the other
+menu items we've given him. Our plan now is to continue this for a few more days
+until he gets used to it.
