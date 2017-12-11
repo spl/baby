@@ -17,20 +17,20 @@ Nutrition](https://family1stnutrition.com/).
 
 #### Day 1
 
-* Breakfast: 1 [baby marrow](./recipes/baby-marrow.md) ([notes](./menu-notes/day-1.md))
+* Breakfast: 1 [baby marrow](./recipes/baby-marrow.md) ([notes](./day-1.md))
 
 #### Day 2
 
-* Breakfast: 2 baby marrows ([notes](./menu-notes/day-2.md))
+* Breakfast: 2 baby marrows ([notes](./day-2.md))
 
 #### Day 3
 
-* Breakfast: 2 baby marrows ([notes](./menu-notes/day-3.md))
+* Breakfast: 2 baby marrows ([notes](./day-3.md))
 * Practice preparing [cereal balls](./recipes/cereal-balls.md)
 
 #### Day 4
 
-* Breakfast: 1 rice [cereal ball](./recipes/cereal-balls.md), 1 baby marrow ([notes](./menu-notes/day-4.md))
+* Breakfast: 1 rice [cereal ball](./recipes/cereal-balls.md), 1 baby marrow ([notes](./day-4.md))
 
 #### Day 5
 
@@ -47,5 +47,5 @@ Nutrition](https://family1stnutrition.com/).
 
 #### Day 8
 
-* Breakfast: 1 tsp chicken puree, 1 rice cereal ball, rice cereal in breast milk ([notes](./menu-notes/day-8.md))
+* Breakfast: 1 tsp chicken puree, 1 rice cereal ball, rice cereal in breast milk ([notes](./day-8.md))
 * Supper: 1 rice cereal ball in formula
