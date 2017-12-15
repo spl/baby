@@ -66,7 +66,7 @@ Nutrition](https://family1stnutrition.com/).
 
 #### Day 13 (Friday, 15)
 
-* Breakfast: 1 tbsp plain yogurt, 1 carrot finger ([notes](./day-11.md))
+* Breakfast: 1 tbsp plain yogurt, 1 carrot finger ([notes](./day-15.md))
 
 #### Day 14 (Saturday, 16)
 
