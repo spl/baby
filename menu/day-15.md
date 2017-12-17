@@ -1,11 +1,6 @@
-# Day 15
+# Day 15 (Sunday, 2017-12-17)
 
-Our new food today is the carrot. We boiled for over 30 minutes: it was pliant
-but still didn't seem soft enough.
-
-The baby did put it in his mouth and made a face. We'll see if he'll try again
-tomorrow.
-
-In addition to carrots, we wanted to see how he liked begin spoon-fed plain
-yogurt, the same ingredient in the cereal balls but without the cereal. He seems
-to like it.
+The baby does not like carrots in any form, it seems. We thought we'd try a
+different form of carrot that wasn't a stick, so we made mash by pushing boiled
+carrots through a strainer (sieve). But it wasn't any more palatable than the
+sticks were.

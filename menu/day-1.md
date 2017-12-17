@@ -1,4 +1,4 @@
-# Day 1 (2017-12-03)
+# Day 1 (Sunday, 2017-12-03)
 
 Today was the first day of introducing solids. Our baby is exactly 26 weeks old
 and 1 day shy of his 6-month birth anniversary. It was also a Sunday, when we

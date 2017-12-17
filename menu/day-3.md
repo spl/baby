@@ -1,4 +1,4 @@
-# Day 3 (2017-12-05)
+# Day 3 (Tuesday, 2017-12-05)
 
 We again gave the baby two baby marrows. He decided, however, that he wasn't
 very interested in putting them in his mouth. He mostly played around for a

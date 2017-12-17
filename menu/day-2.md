@@ -1,4 +1,4 @@
-# Day 2 (2017-12-04)
+# Day 2 (Monday, 2017-12-04)
 
 Today, we gave the baby two baby marrows.
 

@@ -1,0 +1,4 @@
+# Day 14 (Saturday, 2017-12-16)
+
+The baby does not like chicken puree. We used the chicken puree that we had made
+previously and frozen in an ice cube tray.

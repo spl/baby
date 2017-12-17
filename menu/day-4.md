@@ -1,4 +1,4 @@
-# Day 4 (2017-12-06)
+# Day 4 (Wednesday, 2017-12-06)
 
 We offered 1 [cereal ball](../recipes/cereal-balls.md) and 1 baby marrow. For
 cereal, we used Purity Rice. (We could not find Purity Maize in the store.)
