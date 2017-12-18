@@ -13,15 +13,15 @@ Nutrition](https://family1stnutrition.com/).
 
 * Breakfast: 1 [baby marrow](./recipes/baby-marrow.md)
 
-#### [Day 2 (Monday, 2017-12-04)](./day-002.md))
+#### [Day 2 (Monday, 2017-12-04)](./day-002.md)
 
 * Breakfast: 2 baby marrows
 
-#### [Day 3 (Tuesday, 2017-12-05)](./day-003.md))
+#### [Day 3 (Tuesday, 2017-12-05)](./day-003.md)
 
 * Breakfast: 2 baby marrows
 
-#### [Day 4 (Wednesday, 2017-12-06)](./day-004.md))
+#### [Day 4 (Wednesday, 2017-12-06)](./day-004.md)
 
 * Breakfast: 1 rice [cereal ball](./recipes/cereal-balls.md), 1 baby marrow
 
@@ -39,12 +39,12 @@ Nutrition](https://family1stnutrition.com/).
 
 ### Week 2
 
-#### [Day 8 (Sunday, 2017-12-10)](./day-008.md))
+#### [Day 8 (Sunday, 2017-12-10)](./day-008.md)
 
 * Breakfast: 1 tsp chicken puree, 1 rice cereal ball, 1 tsp rice cereal in breast milk
 * Supper: 2 tsp rice cereal in formula
 
-#### [Day 9 (Monday, 2017-12-11)](./day-009.md))
+#### [Day 9 (Monday, 2017-12-11)](./day-009.md)
 
 * Breakfast: 1 tsp rice cereal in formula
 * Supper: 2 tsp rice cereal in formula
@@ -54,7 +54,7 @@ Nutrition](https://family1stnutrition.com/).
 * Breakfast: 1 small banana piece, 1 tsp rice cereal in formula
 * Supper: 2 tsp rice cereal in formula
 
-#### [Day 11 (Wednesday, 2017-12-13)](./day-011.md))
+#### [Day 11 (Wednesday, 2017-12-13)](./day-011.md)
 
 * Breakfast: 1 small banana piece, 1 tsp rice cereal in formula
 * Supper: 2 tsp rice cereal in formula
@@ -64,25 +64,25 @@ Nutrition](https://family1stnutrition.com/).
 * Breakfast: 1 small banana piece, 2 tsp rice cereal in formula
 * Supper: 2 tsp rice cereal in formula
 
-#### [Day 13 (Friday, 2017-12-15)](./day-013.md))
+#### [Day 13 (Friday, 2017-12-15)](./day-013.md)
 
 * Breakfast: 1 tbsp plain yogurt, 1 carrot finger
 * Supper: 2 tsp rice cereal in formula
 
-#### [Day 14 (Saturday, 2017-12-16)](./day-014.md))
+#### [Day 14 (Saturday, 2017-12-16)](./day-014.md)
 
 * Breakfast: 2 carrot fingers, 1 tbsp yogurt
 * Supper: 1 chicken puree ball
 
 ### Week 3
 
-#### [Day 15 (Sunday, 2017-12-17)](./day-015.md))
+#### [Day 15 (Sunday, 2017-12-17)](./day-015.md)
 
 * Breakfast: carrot mash
 * Lunch: 2 small banana pieces
 * Supper: 1 tbsp rice cereal in formula
 
-#### [Day 16 (Monday, 2017-12-18)](./day-016.md))
+#### [Day 16 (Monday, 2017-12-18)](./day-016.md)
 
 * Breakfast: 1 sweet potato finger, 1 strawberry
 * Lunch: 2 small banana pieces
