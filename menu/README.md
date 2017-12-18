@@ -83,6 +83,11 @@ Nutrition](https://family1stnutrition.com/).
 * Supper: 1 tbsp rice cereal in formula
 
 #### Day 16 (Monday, 2017-12-18)
+
+* Breakfast: 1 sweet potato finger, 1 strawberry ([notes](./day-016.md))
+* Lunch: 2 small banana pieces
+* Supper: 1 tbsp yogurt
+
 #### Day 17 (Tuesday, 2017-12-19)
 #### Day 18 (Wednesday, 2017-12-20)
 #### Day 19 (Thursday, 2017-12-21)
