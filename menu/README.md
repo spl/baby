@@ -66,30 +66,40 @@ Nutrition](https://family1stnutrition.com/).
 
 #### [Day 13 (Friday, 2017-12-15)](./day-013.md)
 
-* Breakfast: 1 tbsp plain yogurt, 1 carrot finger
+* Breakfast: 1 tbsp plain yogurt, 1 carrot finger (boiled)
 * Supper: 2 tsp rice cereal in formula
 
 #### [Day 14 (Saturday, 2017-12-16)](./day-014.md)
 
-* Breakfast: 2 carrot fingers, 1 tbsp yogurt
+* Breakfast: 2 carrot fingers (boiled), 1 tbsp yogurt
 * Supper: 1 chicken puree ball
 
 ### Week 3
 
 #### [Day 15 (Sunday, 2017-12-17)](./day-015.md)
 
-* Breakfast: carrot mash
+* Breakfast: carrot mash (boiled)
 * Lunch: 2 small banana pieces
 * Supper: 1 tbsp rice cereal in formula
 
 #### [Day 16 (Monday, 2017-12-18)](./day-016.md)
 
-* Breakfast: 1 sweet potato finger, 1 strawberry
+* Breakfast: 1 sweet potato finger (boiled), 1 strawberry
 * Lunch: 2 small banana pieces
 * Supper: 1 tbsp yogurt
 
 #### Day 17 (Tuesday, 2017-12-19)
+
+* Breakfast: 1 sweet potato finger (baked), 1 strawberry
+* Lunch: 2 tbsp yogurt
+* Supper: 1/3 banana
+
 #### Day 18 (Wednesday, 2017-12-20)
+
+* Breakfast: 1 sweet potato finger (baked), 2 strawberries
+* Lunch: 1 carrot finger (baked)
+* Supper:
+
 #### Day 19 (Thursday, 2017-12-21)
 #### Day 20 (Friday, 2017-12-22)
 #### Day 21 (Saturday, 2017-12-23)
