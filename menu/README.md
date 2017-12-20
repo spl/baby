@@ -11,7 +11,7 @@ Nutrition](https://family1stnutrition.com/).
 
 #### [Day 1 (Sunday, 2017-12-03)](./day/001.md)
 
-* Breakfast: 1 [baby marrow](./recipes/baby-marrow.md)
+* Breakfast: 1 [baby marrow](./food/baby-marrow.md)
 
 #### [Day 2 (Monday, 2017-12-04)](./day/002.md)
 
@@ -23,7 +23,7 @@ Nutrition](https://family1stnutrition.com/).
 
 #### [Day 4 (Wednesday, 2017-12-06)](./day/004.md)
 
-* Breakfast: 1 rice [cereal ball](./recipes/cereal-balls.md), 1 baby marrow
+* Breakfast: 1 rice [cereal ball](./food/cereal-balls.md), 1 baby marrow
 
 #### Day 5 (Thursday, 2017-12-07)
 
