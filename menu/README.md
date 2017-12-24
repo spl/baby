@@ -98,17 +98,45 @@ Nutrition](https://family1stnutrition.com/).
 
 * Breakfast: 1 [sweet potato](./food/sweet-potatoes.md) finger (baked), 2 strawberries
 * Lunch: 1/3 [carrot](./food/carrots.md) (baked), 1/3 banana
-* Supper:
 
 #### Day 19 (Thursday, 2017-12-21)
+
+* Breakfast: 1 maize cereal ball (yogurt), 1 cucumber finger
+* Lunch: 1 carrot finger, 2 tsp maize cereal in formula
+* Supper: 2 tbsp yogurt, 1 strawberry
+
 #### Day 20 (Friday, 2017-12-22)
+
+* Breakfast: 4 tsp maize cereal in formula, 1 cucumber finger
+* Lunch: 1/3 banana
+* Supper: 1 strawberry, 1 tbsp yogurt
+
 #### Day 21 (Saturday, 2017-12-23)
 
+* Breakfast: 1 cucumber finger, 1 tbsp maize cereal in formula
+* Lunch: 1 mango finger
+* Supper: 1 strawberry, 2 tsp yogurt
+
 ### Week 4
+
 #### Day 22 (Sunday, 2017-12-24)
+
+* Breakfast: 1 cucumber finger
+* Lunch: 1 mango finger
+* Supper: 1 tbsp maize cereal in formula
+
 #### Day 23 (Monday, 2017-12-25)
 #### Day 24 (Tuesday, 2017-12-26)
 #### Day 25 (Wednesday, 2017-12-27)
 #### Day 26 (Thursday, 2017-12-28)
 #### Day 27 (Friday, 2017-12-29)
 #### Day 28 (Saturday, 2017-12-30)
+
+### Week 5
+#### Day 29 (Sunday, 2017-12-31)
+#### Day 30 (Monday, 2018-01-01)
+#### Day 31 (Tuesday, 2018-01-02)
+#### Day 32 (Wednesday, 2018-01-03)
+#### Day 33 (Thursday, 2018-01-04)
+#### Day 34 (Friday, 2018-01-05)
+#### Day 35 (Saturday, 2018-01-06)
