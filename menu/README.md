@@ -11,7 +11,7 @@ Nutrition](https://family1stnutrition.com/).
 
 #### [Day 1 (Sunday, 2017-12-03)](./day/001.md)
 
-* Breakfast: 1 [baby marrow](./food/baby-marrow.md)
+* Breakfast: 1 [**baby marrow**](./food/baby-marrow.md)
 
 #### [Day 2 (Monday, 2017-12-04)](./day/002.md)
 
@@ -23,7 +23,7 @@ Nutrition](https://family1stnutrition.com/).
 
 #### [Day 4 (Wednesday, 2017-12-06)](./day/004.md)
 
-* Breakfast: 1 rice [cereal ball](./food/cereal-balls.md), 1 baby marrow
+* Breakfast: 1 [**rice cereal** ball](./food/cereal-balls.md), 1 baby marrow
 
 #### Day 5 (Thursday, 2017-12-07)
 
@@ -35,7 +35,7 @@ Nutrition](https://family1stnutrition.com/).
 
 #### Day 7 (Saturday, 2017-12-09)
 
-* Breakfast: 1 tsp chicken puree, 1 rice cereal ball
+* Breakfast: 1 tsp **chicken puree**, 1 rice cereal ball
 
 ### Week 2
 
@@ -51,7 +51,7 @@ Nutrition](https://family1stnutrition.com/).
 
 #### Day 10 (Tuesday, 2017-12-12)
 
-* Breakfast: 1 small banana piece, 1 tsp rice cereal in formula
+* Breakfast: 1 small **banana** piece, 1 tsp rice cereal in formula
 * Supper: 2 tsp rice cereal in formula
 
 #### [Day 11 (Wednesday, 2017-12-13)](./day/011.md)
@@ -66,7 +66,7 @@ Nutrition](https://family1stnutrition.com/).
 
 #### [Day 13 (Friday, 2017-12-15)](./day/013.md)
 
-* Breakfast: 1 tbsp plain yogurt, 1 [carrot](./food/carrots.md) finger (boiled)
+* Breakfast: 1 tbsp **plain yogurt**, 1 [**carrot**](./food/carrots.md) finger (boiled)
 * Supper: 2 tsp rice cereal in formula
 
 #### [Day 14 (Saturday, 2017-12-16)](./day/014.md)
@@ -84,7 +84,7 @@ Nutrition](https://family1stnutrition.com/).
 
 #### [Day 16 (Monday, 2017-12-18)](./day/016.md)
 
-* Breakfast: 1 [sweet potato](./food/sweet-potatoes.md) finger (boiled), 1 strawberry
+* Breakfast: 1 [**sweet potato**](./food/sweet-potatoes.md) finger (boiled), 1 strawberry
 * Lunch: 2 small banana pieces
 * Supper: 1 tbsp yogurt
 
@@ -92,23 +92,23 @@ Nutrition](https://family1stnutrition.com/).
 
 * Breakfast: 1 [sweet potato](./food/sweet-potatoes.md) finger (baked), 1 strawberry
 * Lunch: 2 tbsp yogurt
-* Supper: 1/3 banana
+* Supper: ⅓ banana
 
 #### Day 18 (Wednesday, 2017-12-20)
 
 * Breakfast: 1 [sweet potato](./food/sweet-potatoes.md) finger (baked), 2 strawberries
-* Lunch: 1/3 [carrot](./food/carrots.md) (baked), 1/3 banana
+* Lunch: ⅓ [carrot](./food/carrots.md) (baked), ⅓ banana
 
 #### Day 19 (Thursday, 2017-12-21)
 
-* Breakfast: 1 maize cereal ball (yogurt), 1 cucumber finger
+* Breakfast: 1 **maize cereal** ball (yogurt), 1 **cucumber** finger
 * Lunch: 1 carrot finger, 2 tsp maize cereal in formula
 * Supper: 2 tbsp yogurt, 1 strawberry
 
 #### Day 20 (Friday, 2017-12-22)
 
 * Breakfast: 4 tsp maize cereal in formula, 1 cucumber finger
-* Lunch: 1/3 banana
+* Lunch: ⅓ banana
 * Supper: 1 strawberry, 1 tbsp yogurt
 
 #### Day 21 (Saturday, 2017-12-23)
@@ -126,17 +126,61 @@ Nutrition](https://family1stnutrition.com/).
 * Supper: 1 tbsp maize cereal in formula
 
 #### Day 23 (Monday, 2017-12-25)
+
+* Breakfast: 1 **lamb** chunk, ⅓ banana
+* Lunch: 1 mango finger
+* Supper: 1 cucumber finger, 1 tbsp maize cereal in formula
+
 #### Day 24 (Tuesday, 2017-12-26)
+
+* Breakfast: 1 lamb chunk, 1 sweet potato finger (baked)
+* Lunch: 1 strawberry
+* Supper: 1 tbsp yogurt, 1 baby marrow (baked)
+
 #### Day 25 (Wednesday, 2017-12-27)
+
+* Breakfast: 1 lamb chunk, 1 carrot finger (baked)
+* Lunch: ⅓ banana
+* Supper: 1 sweet potato finger (baked), 1 tbsp maize cereal in formula
+
 #### Day 26 (Thursday, 2017-12-28)
+
+* Breakfast: 2 cavatappi **pasta** pieces, 1 **butternut** finger (baked)
+* Lunch: 1 tbsp yogurt
+* Supper: 1 strawberry, 1 cucumber finger
+
 #### Day 27 (Friday, 2017-12-29)
+
+* Breakfast: 2 cavatappi pasta pieces, 1 butternut finger (baked)
+* Lunch: 1 chicken meatball (baked)
+* Supper: 1 mango finger, 1 tbsp maize cereal in formula
+
 #### Day 28 (Saturday, 2017-12-30)
 
+* Breakfast: 2 cavatappi pasta pieces, 1 butternut finger (baked)
+* Lunch: 1 cucumber finger
+* Supper: 1 tbsp yogurt, 1 baby marrow (baked)
+
 ### Week 5
+
 #### Day 29 (Sunday, 2017-12-31)
+
+* Breakfast: 1 **broccoli** floret, 1 **papaya** finger
+* Lunch: 1 lamb chunk
+* Supper: 1 strawberry, 1 tbsp maize cereal in formula
+
 #### Day 30 (Monday, 2018-01-01)
 #### Day 31 (Tuesday, 2018-01-02)
 #### Day 32 (Wednesday, 2018-01-03)
 #### Day 33 (Thursday, 2018-01-04)
 #### Day 34 (Friday, 2018-01-05)
 #### Day 35 (Saturday, 2018-01-06)
+
+### Week 6
+#### Day 36 (Sunday, 2018-01-07)
+#### Day 37 (Monday, 2018-01-08)
+#### Day 38 (Tuesday, 2018-01-09)
+#### Day 39 (Wednesday, 2018-01-10)
+#### Day 40 (Thursday, 2018-01-11)
+#### Day 41 (Friday, 2018-01-12)
+#### Day 42 (Saturday, 2018-01-13)
