@@ -123,7 +123,7 @@ Nutrition](https://family1stnutrition.com/).
 
 * Breakfast: 1 cucumber finger
 * Lunch: 1 mango finger
-* Supper: 1 tbsp maize cereal in formula
+* Supper: ⅓ carrot (baked), 1 tbsp maize cereal in formula
 
 #### Day 23 (Monday, 2017-12-25)
 
@@ -139,7 +139,7 @@ Nutrition](https://family1stnutrition.com/).
 
 #### Day 25 (Wednesday, 2017-12-27)
 
-* Breakfast: 1 lamb chunk, 1 carrot finger (baked)
+* Breakfast: 1 lamb chunk, ⅓ carrot (baked)
 * Lunch: ⅓ banana
 * Supper: 1 sweet potato finger (baked), 1 tbsp maize cereal in formula
 
