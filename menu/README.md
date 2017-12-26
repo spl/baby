@@ -92,12 +92,12 @@ Nutrition](https://family1stnutrition.com/).
 
 * Breakfast: 1 [sweet potato](./food/sweet-potatoes.md) finger (baked), 1 strawberry
 * Lunch: 2 tbsp yogurt
-* Supper: ⅓ banana
+* Supper: 1 banana finger
 
 #### Day 18 (Wednesday, 2017-12-20)
 
 * Breakfast: 1 [sweet potato](./food/sweet-potatoes.md) finger (baked), 2 strawberries
-* Lunch: ⅓ [carrot](./food/carrots.md) (baked), ⅓ banana
+* Lunch: 1 [carrot](./food/carrots.md) (baked) finger, 1 banana finger
 
 #### Day 19 (Thursday, 2017-12-21)
 
@@ -108,7 +108,7 @@ Nutrition](https://family1stnutrition.com/).
 #### Day 20 (Friday, 2017-12-22)
 
 * Breakfast: 4 tsp maize cereal in formula, 1 cucumber finger
-* Lunch: ⅓ banana
+* Lunch: 1 banana finger
 * Supper: 1 strawberry, 1 tbsp yogurt
 
 #### Day 21 (Saturday, 2017-12-23)
@@ -123,24 +123,24 @@ Nutrition](https://family1stnutrition.com/).
 
 * Breakfast: 1 cucumber finger
 * Lunch: 1 mango finger
-* Supper: ⅓ carrot (baked), 1 tbsp maize cereal in formula
+* Supper: 1 carrot finger (baked), 1 tbsp maize cereal in formula
 
 #### Day 23 (Monday, 2017-12-25)
 
-* Breakfast: 1 **lamb** chunk, ⅓ banana
+* Breakfast: 1 **lamb** chunk, 1 banana finger
 * Lunch: 1 mango finger
-* Supper: 1 cucumber finger, 1 tbsp maize cereal in formula
+* Supper: 1 cucumber finger, 1 tbsp yogurt
 
 #### Day 24 (Tuesday, 2017-12-26)
 
-* Breakfast: 1 lamb chunk, 1 sweet potato finger (baked)
+* Breakfast: 1 lamb chunk, 1 carrot finger (baked), 1 tsp carrot puree in yogurt
 * Lunch: 1 strawberry
-* Supper: 1 tbsp yogurt, 1 baby marrow (baked)
+* Supper: 1 sweet potato finger (baked), 1 tsp sweet potato mash in formula, 2 tsp maize cereal in formula
 
 #### Day 25 (Wednesday, 2017-12-27)
 
-* Breakfast: 1 lamb chunk, ⅓ carrot (baked)
-* Lunch: ⅓ banana
+* Breakfast: 1 lamb chunk, 1 sweet potato finger (baked)
+* Lunch: 1 banana finger
 * Supper: 1 sweet potato finger (baked), 1 tbsp maize cereal in formula
 
 #### Day 26 (Thursday, 2017-12-28)
