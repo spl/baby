@@ -139,38 +139,47 @@ Nutrition](https://family1stnutrition.com/).
 
 #### Day 25 (Wednesday, 2017-12-27)
 
-* Breakfast: 1 lamb chunk, 1 sweet potato finger (baked)
+* Breakfast: 1 sweet potato finger (baked) mash in yogurt
 * Lunch: 1 banana finger
-* Supper: 1 sweet potato finger (baked), 1 tbsp maize cereal in formula
+* Supper: 1 tbsp maize cereal in formula
 
 #### Day 26 (Thursday, 2017-12-28)
 
-* Breakfast: 2 cavatappi **pasta** pieces, 1 **butternut** finger (baked)
+* Breakfast: 1 cavatappi **pasta** piece, 1 **butternut** finger (baked)
 * Lunch: 1 tbsp yogurt
 * Supper: 1 strawberry, 1 cucumber finger
 
 #### Day 27 (Friday, 2017-12-29)
 
-* Breakfast: 2 cavatappi pasta pieces, 1 butternut finger (baked)
-* Lunch: 1 chicken meatball (baked)
-* Supper: 1 mango finger, 1 tbsp maize cereal in formula
+* Breakfast: 1 cavatappi pasta piece, 1 butternut finger (baked)
+* Lunch: 1 mango finger
+* Supper: 1 chicken meatball (baked), 1 tbsp maize cereal in formula
 
 #### Day 28 (Saturday, 2017-12-30)
 
-* Breakfast: 2 cavatappi pasta pieces, 1 butternut finger (baked)
-* Lunch: 1 cucumber finger
-* Supper: 1 tbsp yogurt, 1 baby marrow (baked)
+* Breakfast: 1 cavatappi pasta piece, 1 butternut finger (baked)
+* Lunch: _skipped_
+* Supper: 2 cucumber fingers, 1 tbsp maize cereal in formula
 
 ### Week 5
 
 #### Day 29 (Sunday, 2017-12-31)
 
-* Breakfast: 1 **broccoli** floret, 1 **papaya** finger
-* Lunch: 1 lamb chunk
-* Supper: 1 strawberry, 1 tbsp maize cereal in formula
+* Breakfast: 1 rye **bread** finger, 1 hake **fish** ball (baked)
+* Lunch: 1 mango finger
+* Supper: 1 strawberry, 1 tbsp yogurt
 
 #### Day 30 (Monday, 2018-01-01)
+
+* Breakfast: 1 rye bread finger, 1 hake fish ball (baked)
+* Lunch: 1 cucumber finger
+* Supper: 1 sweet potato finger (baked), 1 mango finger
+
 #### Day 31 (Tuesday, 2018-01-02)
+
+* Breakfast: 1 rye bread finger, 1 hake fish ball (baked)
+* Lunch: 1 baby **gem squash** (baked)
+
 #### Day 32 (Wednesday, 2018-01-03)
 #### Day 33 (Thursday, 2018-01-04)
 #### Day 34 (Friday, 2018-01-05)
