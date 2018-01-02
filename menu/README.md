@@ -179,17 +179,57 @@ Nutrition](https://family1stnutrition.com/).
 
 * Breakfast: 1 rye bread finger, 1 hake fish ball (baked)
 * Lunch: 1 baby **gem squash** (baked)
+* Supper: 1 strawberry, 1 tbsp maize cereal in formula
 
 #### Day 32 (Wednesday, 2018-01-03)
+
+* Breakfast: 1 **litchi**, 1 cavatappi pasta piece
+* Lunch: 1 banana finger
+* Supper: 1 carrot finger (baked), 1 tbsp yogurt
+
 #### Day 33 (Thursday, 2018-01-04)
+
+* Breakfast: 1 litchi, 1 bread finger
+* Lunch: 1 mango finger
+* Supper: 1 baby gem squash (baked), 1 tbsp maize cereal in formula
+
 #### Day 34 (Friday, 2018-01-05)
+
+* Breakfast: 1 litchi, 1 cucumber finger
+* Lunch: 1 sweet potato finger (baked)
+* Supper: 1 cavatappi pasta piece, 1 tbsp yogurt
+
 #### Day 35 (Saturday, 2018-01-06)
 
+* Breakfast: 1 tsp [**peanut butter**](./food/peanut-butter.md) in water, 1 bread finger
+* Lunch: 1 strawberry
+* Supper: 1 butternut finger, 1 tbsp maize cereal in formula
+
 ### Week 6
+
 #### Day 36 (Sunday, 2018-01-07)
+
+* Breakfast: 1 tsp peanut butter, 1 mango finger
+* Lunch: 1 baby gem squash (baked)
+* Supper: 1 banana finger, 1 tbsp yogurt
+
 #### Day 37 (Monday, 2018-01-08)
+
+* Breakfast: 1 tsp peanut butter, 1 cucumber finger
+* Lunch: 1 butternut finger
+* Supper: 1 litchi, 1 bread finger
+
 #### Day 38 (Tuesday, 2018-01-09)
 #### Day 39 (Wednesday, 2018-01-10)
 #### Day 40 (Thursday, 2018-01-11)
 #### Day 41 (Friday, 2018-01-12)
 #### Day 42 (Saturday, 2018-01-13)
+
+### Week 7
+#### Day 43 (Sunday, 2018-01-14)
+#### Day 44 (Monday, 2018-01-15)
+#### Day 45 (Tuesday, 2018-01-16)
+#### Day 46 (Wednesday, 2018-01-17)
+#### Day 47 (Thursday, 2018-01-18)
+#### Day 48 (Friday, 2018-01-19)
+#### Day 49 (Saturday, 2018-01-20)
