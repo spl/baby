@@ -62,15 +62,15 @@ Sat | 1 cavatappi pasta piece<br/>1 butternut finger (baked) | (_skipped_) | 2 c
 | Tue | 1 rye bread finger<br/>1 hake fish ball (baked) | 1 baby **gem squash** (baked) | 1 strawberry<br/>1 tbsp maize cereal in formula |
 | Wed | 1 **litchi**<br/>1 cavatappi pasta piece | 1 banana finger | 1 carrot finger (baked)<br/>1 tbsp yogurt |
 | Thu | 1 litchi<br/>1 bread finger | 1 mango finger | 1 baby gem squash (baked)<br/>1 tbsp maize cereal in formula |
-| Fri | 1 litchi<br/>1 cucumber finger | 1 sweet potato finger (baked) | 1 cavatappi pasta piece<br/>1 tbsp yogurt |
-| Sat | 1 tsp [**peanut butter**](./food/peanut-butter.md) in water<br/>1 bread finger | 1 strawberry | 1 butternut finger<br/>1 tbsp maize cereal in formula |
+| Fri | 1 litchi<br/>1 finger cucumber | 1 finger sweet potato (orange)<br/>½ litchi | 2 pieces cavatappi<br/>1 tbsp yogurt |
+| Sat | 1 tsp [**peanut butter**](./food/peanut-butter.md) in hot water<br/>2 fingers bread | 1 strawberry | 1 chunk sweet potato (orange)<br/>1 tbsp maize cereal in formula |
 
 ## Week 6 (2018-01-07 — 2018-01-13)
 
 | Day | Breakfast | Lunch | Supper |
 | --- | --------- | ----- | ------ |
-| Sun | 1 tsp peanut butter<br/>1 mango finger | 1 baby gem squash (baked) | 1 banana finger<br/>1 tbsp yogurt |
-| Mon | 1 tsp peanut butter<br/>1 cucumber finger | 1 butternut finger | 1 litchi<br/>1 bread finger |
+| Sun | 1 tsp peanut butter<br/>1 finger mango | 2 fingers carrot | 1 finger banana<br/>1 tbsp yogurt |
+| Mon | 1 tsp peanut butter<br/>1 finger cucumber | 1 finger carrot | 1 litchi<br/>1 finger bread |
 | Tue |  |  |  |
 | Wed |  |  |  |
 | Thu |  |  |  |
