@@ -26,42 +26,42 @@ Nutrition](https://family1stnutrition.com/).
 | Tue | 1 small **banana** piece<br/>1 tsp rice cereal in formula | 2 tsp rice cereal in formula |
 | [Wed](./day/011.md) | 1 small banana piece<br/>1 tsp rice cereal in formula | 2 tsp rice cereal in formula |
 | Thu | 1 small banana piece<br/>2 tsp rice cereal in formula | 2 tsp rice cereal in formula |
-| [Fri](./day/013.md) | 1 tbsp **plain yogurt**<br/>1 [**carrot**](./food/carrots.md) finger (boiled) | 2 tsp rice cereal in formula |
-| [Sat](./day/014.md) | 2 [carrot](./food/carrots.md) fingers (boiled)<br/>1 tbsp yogurt | 1 chicken puree ball |
+| [Fri](./day/013.md) | 1 tbsp **plain yogurt**<br/>1 finger [**carrot**](./food/carrots.md) (boiled) | 2 tsp rice cereal in formula |
+| [Sat](./day/014.md) | 2 fingers [carrot](./food/carrots.md) (boiled)<br/>1 tbsp yogurt | 1 chicken puree ball |
 
 ## Week 3 (2017-12-17 — 2017-12-23)
 
 | Day | Breakfast | Lunch | Supper |
 | --- | --------- | ----- | ------ |
 | [Sun](./day/015.md) | [carrot](./food/carrots.md) mash (boiled) | 2 small banana pieces | 1 tbsp rice cereal in formula |
-| [Mon](./day/016.md) | 1 [**sweet potato**](./food/sweet-potatoes.md) finger (boiled)<br/>1 strawberry | 2 small banana pieces | 1 tbsp yogurt |
-| Tue | 1 [sweet potato](./food/sweet-potatoes.md) finger (baked)<br/>1 strawberry | 2 tbsp yogurt | 1 banana finger |
-| Wed | 1 [sweet potato](./food/sweet-potatoes.md) finger (baked)<br/>2 strawberries | 1 [carrot](./food/carrots.md) (baked) finger<br/>1 banana finger | (_skipped_) |
-| Thu | 1 **maize cereal** ball (yogurt)<br/>1 **cucumber** finger | 1 carrot finger<br/>2 tsp maize cereal in formula | 2 tbsp yogurt<br/>1 strawberry |
-| Fri | 4 tsp maize cereal in formula<br/>1 cucumber finger | 1 banana finger | 1 strawberry<br/>1 tbsp yogurt |
-| Sat | 1 cucumber finger<br/>1 tbsp maize cereal in formula | 1 mango finger | 1 strawberry<br/>2 tsp yogurt |
+| [Mon](./day/016.md) | 1 finger [**sweet potato**](./food/sweet-potatoes.md) (boiled)<br/>1 strawberry | 2 small banana pieces | 1 tbsp yogurt |
+| Tue | 1 finger [sweet potato](./food/sweet-potatoes.md) (baked)<br/>1 strawberry | 2 tbsp yogurt | 1 finger banana |
+| Wed | 1 finger [sweet potato](./food/sweet-potatoes.md) (baked)<br/>2 strawberries | 1 finger [carrot](./food/carrots.md) (baked)<br/>1 finger banana | (_skipped_) |
+| Thu | 1 **maize cereal** ball (yogurt)<br/>1 finger **cucumber** | 1 finger carrot<br/>2 tsp maize cereal in formula | 2 tbsp yogurt<br/>1 strawberry |
+| Fri | 4 tsp maize cereal in formula<br/>1 finger cucumber | 1 finger banana | 1 strawberry<br/>1 tbsp yogurt |
+| Sat | 1 finger cucumber<br/>1 tbsp maize cereal in formula | 1 finger mango | 1 strawberry<br/>2 tsp yogurt |
 
 ## Week 4 (2017-12-24 — 2017-12-30)
 
 | Day | Breakfast | Lunch | Supper |
 | --- | --------- | ----- | ------ |
-Sun | 1 cucumber finger | 1 mango finger | 1 carrot finger (baked)<br/>1 tbsp maize cereal in formula |
-Mon | 1 **lamb** chunk<br/>1 banana finger | 1 mango finger | 1 cucumber finger<br/>1 tbsp yogurt |
-Tue | 1 lamb chunk<br/>1 carrot finger (baked)<br/>1 tsp carrot puree in yogurt | 1 strawberry | 1 sweet potato finger (baked)<br/>1 tsp sweet potato mash in formula<br/>2 tsp maize cereal in formula |
-Wed | 1 sweet potato finger (baked) mash in yogurt | 1 banana finger | 1 tbsp maize cereal in formula |
-Thu | 1 cavatappi **pasta** piece<br/>1 **butternut** finger (baked) | 1 tbsp yogurt | 1 strawberry<br/>1 cucumber finger |
-Fri | 1 cavatappi pasta piece<br/>1 butternut finger (baked) | 1 mango finger | 1 chicken meatball (baked)<br/>1 tbsp maize cereal in formula |
-Sat | 1 cavatappi pasta piece<br/>1 butternut finger (baked) | (_skipped_) | 2 cucumber fingers<br/>1 tbsp maize cereal in formula |
+Sun | 1 finger cucumber | 1 finger mango | 1 finger carrot (baked)<br/>1 tbsp maize cereal in formula |
+Mon | 1 **lamb** chunk<br/>1 finger banana | 1 finger mango | 1 finger cucumber<br/>1 tbsp yogurt |
+Tue | 1 lamb chunk<br/>1 finger carrot (baked)<br/>1 tsp carrot puree in yogurt | 1 strawberry | 1 finger sweet potato (baked)<br/>1 tsp sweet potato mash in formula<br/>2 tsp maize cereal in formula |
+Wed | 1 finger sweet potato (baked) mash in yogurt | 1 finger banana | 1 tbsp maize cereal in formula |
+Thu | 1 cavatappi **pasta** piece<br/>1 finger **butternut** (baked) | 1 tbsp yogurt | 1 strawberry<br/>1 finger cucumber |
+Fri | 1 cavatappi pasta piece<br/>1 finger butternut (baked) | 1 finger mango | 1 chicken meatball (baked)<br/>1 tbsp maize cereal in formula |
+Sat | 1 cavatappi pasta piece<br/>1 finger butternut (baked) | (_skipped_) | 2 fingers cucumber<br/>1 tbsp maize cereal in formula |
 
 ## Week 5 (2017-12-31 — 2018-01-06)
 
 | Day | Breakfast | Lunch | Supper |
 | --- | --------- | ----- | ------ |
-| Sun | 1 rye **bread** finger<br/>1 hake **fish** ball (baked) | 1 mango finger | 1 strawberry<br/>1 tbsp yogurt |
-| Mon | 1 rye bread finger<br/>1 hake fish ball (baked) | 1 cucumber finger | 1 sweet potato finger (baked)<br/>1 mango finger |
-| Tue | 1 rye bread finger<br/>1 hake fish ball (baked) | 1 baby **gem squash** (baked) | 1 strawberry<br/>1 tbsp maize cereal in formula |
-| Wed | 1 **litchi**<br/>1 cavatappi pasta piece | 1 banana finger | 1 carrot finger (baked)<br/>1 tbsp yogurt |
-| Thu | 1 litchi<br/>1 bread finger | 1 mango finger | 1 baby gem squash (baked)<br/>1 tbsp maize cereal in formula |
+| Sun | 1 finger rye **bread**<br/>1 hake **fish** ball (baked) | 1 finger mango | 1 strawberry<br/>1 tbsp yogurt |
+| Mon | 1 finger rye bread<br/>1 hake fish ball (baked) | 1 finger cucumber | 1 finger sweet potato (baked)<br/>1 finger mango |
+| Tue | 1 finger rye bread<br/>1 hake fish ball (baked) | 1 baby **gem squash** (baked) | 1 strawberry<br/>1 tbsp maize cereal in formula |
+| Wed | 1 **litchi**<br/>1 cavatappi pasta piece | 1 finger banana | 1 finger carrot (baked)<br/>1 tbsp yogurt |
+| Thu | 1 litchi<br/>1 finger bread | 1 finger mango | 1 baby gem squash (baked)<br/>1 tbsp maize cereal in formula |
 | Fri | 1 litchi<br/>1 finger cucumber | 1 finger sweet potato (orange)<br/>½ litchi | 2 pieces cavatappi<br/>1 tbsp yogurt |
 | Sat | 1 tsp [**peanut butter**](./food/peanut-butter.md) in hot water<br/>2 fingers bread | 1 strawberry | 1 chunk sweet potato (orange)<br/>1 tbsp maize cereal in formula |
 
