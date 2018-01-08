@@ -70,7 +70,7 @@ Sat | 1 cavatappi pasta piece<br/>1 finger butternut (baked) | (_skipped_) | 2 f
 | Day | Breakfast | Lunch | Supper |
 | --- | --------- | ----- | ------ |
 | Sun | 1 tsp peanut butter<br/>1 finger mango | 2 fingers carrot | 1 finger banana<br/>1 tbsp yogurt |
-| Mon | 1 tsp peanut butter<br/>1 finger cucumber | 1 finger carrot | 1 litchi<br/>1 finger bread |
+| Mon | 1 tsp peanut butter<br/>1 finger cucumber | 1 chunk sweet potato (orange) | 1 litchi<br/>1 finger bread |
 | Tue |  |  |  |
 | Wed |  |  |  |
 | Thu |  |  |  |
