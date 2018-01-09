@@ -1,8 +1,9 @@
 language: generic
 
 before_install:
+- sudo add-apt-repository ppa:mscore-ubuntu/mscore-stable -y
 - sudo apt-get update
-- sudo apt-get install texlive-latex-extra texlive-xetex latexmk
+- sudo apt-get install texlive-latex-extra texlive-xetex latexmk xvfb musescore
 
 script:
 - make
