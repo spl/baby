@@ -71,13 +71,25 @@ Sat | 1 cavatappi pasta piece<br/>1 finger butternut (baked) | (_skipped_) | 2 f
 | --- | --------- | ----- | ------ |
 | Sun | 1 tsp peanut butter<br/>1 finger mango | 2 fingers carrot | 1 finger banana<br/>1 tbsp yogurt |
 | Mon | 1 tsp peanut butter<br/>1 finger cucumber | 1 chunk sweet potato (orange) | 1 litchi<br/>1 finger bread |
+| Tue | 1 **egg** (hardboiled)<br/>1 strawberry | 1 baby marrow | 1 tbsp maize cereal in formula<br/>1 finger carrot |
+| Wed | 1 egg (hardboiled)<br/>1 finger bread | 1 chunk butternut | 1 tsp peanut butter<br/>2 fingers cucumber |
+| Thu | 1 egg (scrambled, boiled)<br/>1 chunk butternut | 1 finger mango | 1 tbsp yogurt<br/>1 baby marrow |
+| Fri | 2 **green beans**<br/>1 finger banana | 2 pieces cavatappi | 1 tbsp maize cereal in formula<br/>1 chunk butternut |
+| Sat | 2 green beans<br/>1 litchi | 1 chunk sweet potato | 1 tbsp yogurt<br/>1 finger banana |
+
+## Week 7 (2018-01-14 — 2018-01-20)
+
+| Day | Breakfast | Lunch | Supper |
+| --- | --------- | ----- | ------ |
+| Sun | 2 green beans<br/>1 finger carrot | 1 finger cucumber | 1 tsp peanut butter<br/>1 finger bread |
+| Mon |  |  |  |
 | Tue |  |  |  |
 | Wed |  |  |  |
 | Thu |  |  |  |
 | Fri |  |  |  |
 | Sat |  |  |  |
 
-## Week 7 (2018-01-14 — 2018-01-20)
+## Week 8 (2018-01-21 — 2018-02-27)
 
 | Day | Breakfast | Lunch | Supper |
 | --- | --------- | ----- | ------ |
