@@ -84,14 +84,14 @@ Sat | 1 pc cavatappi pasta<br/>1 f butternut (baked) | (_skipped_) | 2 f cucumbe
 | Tue | 1 **egg** (hardboiled)<br/>1 strawberry | 1 baby marrow | 1 T maize cereal in formula<br/>1 f carrot |
 | Wed | 1 egg (hardboiled)<br/>1 f bread<br/>1 **cherry** | 1 ch butternut | 1 t peanut butter<br/>2 f cucumber |
 | Thu | 1 egg (scrambled, boiled)<br/>1 ch butternut | 1 f mango | 1 T yogurt<br/>1 baby marrow |
-| Fri | 2 **green beans**<br/>1 f banana | 2 pc cavatappi | 1 T maize cereal in formula<br/>1 ch butternut |
-| Sat | 2 green beans<br/>1 litchi | 1 ch sweet potato | 1 T yogurt<br/>1 f banana |
+| Fri | 3 **green beans**<br/>1 f banana | 3 pc cavatappi | 1 T maize cereal in formula<br/>1 ch butternut |
+| Sat | 3 green beans<br/>1 litchi | 1 ch sweet potato | 1 T yogurt<br/>1 f banana |
 
 ## Week 7 (2018-01-14 — 2018-01-20)
 
 | Day | Breakfast | Lunch | Supper |
 | --- | --------- | ----- | ------ |
-| Sun | 2 green beans<br/>1 f carrot | 1 f cucumber | 1 t peanut butter<br/>1 f bread |
+| Sun | 3 green beans<br/>1 f carrot | 1 f cucumber | 1 t peanut butter<br/>1 f bread |
 | Mon |  |  |  |
 | Tue |  |  |  |
 | Wed |  |  |  |
