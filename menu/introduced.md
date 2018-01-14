@@ -23,6 +23,7 @@ These are the foods we have introduced to our baby, in chronological order:
 | 17  | 2018-01-06 | peanut butter           |
 | 18  | 2018-01-09 | egg                     |
 | 19  | 2018-01-10 | cherry                  |
+| 20  | 2018-01-12 | green bean              |
 
 These are foods that we are currently considering introducing, in no particular
 order:
