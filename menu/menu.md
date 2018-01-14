@@ -92,9 +92,9 @@ Sat | 1 pc cavatappi pasta<br/>1 f butternut (baked) | (_skipped_) | 2 f cucumbe
 | Day | Breakfast | Lunch | Supper |
 | --- | --------- | ----- | ------ |
 | Sun | 3 green beans<br/>1 strawberry | 1 f cucumber | 1 t peanut butter<br/>1 f bread |
-| Mon |  |  |  |
-| Tue |  |  |  |
-| Wed |  |  |  |
+| Mon | 1 ch **salmon**<br/>1 T yogurt | 1 f carrot | 1 ch sweet potato<br/>1 f mango |
+| Tue | 1 ch salmon<br/> |  | <br/> |
+| Wed | 1 ch salmon<br/> |  | <br/> |
 | Thu |  |  |  |
 | Fri |  |  |  |
 | Sat |  |  |  |
