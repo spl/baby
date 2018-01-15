@@ -12,6 +12,7 @@ introduction to solids” (BLIS) method. Our menu is derived from one provided b
 | ch           | chunk      |
 | f            | finger     |
 | pc           | piece      |
+| sl           | slice       |
 | t            | teaspoon   |
 | T            | tablespoon |
 
@@ -93,19 +94,19 @@ Sat | 1 pc cavatappi pasta<br/>1 f butternut (baked) | (_skipped_) | 2 f cucumbe
 | --- | --------- | ----- | ------ |
 | Sun | 3 green beans<br/>1 strawberry | 1 f cucumber | 1 t peanut butter<br/>1 f bread |
 | Mon | 1 ch **salmon**<br/>1 T yogurt | 1 f carrot | 1 ch sweet potato<br/>1 f mango |
-| Tue | 1 ch salmon<br/> |  | <br/> |
-| Wed | 1 ch salmon<br/> |  | <br/> |
-| Thu |  |  |  |
-| Fri |  |  |  |
-| Sat |  |  |  |
+| Tue | 1 ch salmon<br/>1 T maize cereal | 1 litchi | 1 baby gem squash<br/>3 pc cavatappi |
+| Wed | 1 ch salmon<br/>1 baby marrow | 1 ch sweet potato | 1 t peanut butter<br/>1 f bread |
+| Thu | 1 sl **tomato**<br/>3 green beans | 1 f banana | 1 f mango<br/>1 T yogurt |
+| Fri | 1 sl tomato<br/>3 green beans | 1 T maize cereal | 1 f cucumber<br/>3 pc cavatappi |
+| Sat | 1 sl tomato<br/>1 f bread | 1 litchi | 1 strawberry<br/>1 maize cereal ball |
 
 ## Week 8 (2018-01-21 — 2018-02-27)
 
 | Day | Breakfast | Lunch | Supper |
 | --- | --------- | ----- | ------ |
-| Sun |  |  |  |
-| Mon |  |  |  |
-| Tue |  |  |  |
+| Sun | 1 ch **potato**<br/>1 t peanut butter | 1 f carrot | 1 f banana<br/>1 T yogurt |
+| Mon | 1 ch potato<br/>3 green beans | 1 f mango | 1 T maize cereal<br/>1 f sweet potato |
+| Tue | 1 ch potato<br/>1 sl tomato | 1 maize cereal ball | 3 pc cavatappi<br/>? chicken |
 | Wed |  |  |  |
 | Thu |  |  |  |
 | Fri |  |  |  |
