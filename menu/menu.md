@@ -97,7 +97,7 @@ Sat | 1 pc cavatappi pasta<br/>1 f butternut (baked) | (_skipped_) | 2 f cucumbe
 | Tue | 1 ch salmon<br/>1 T maize cereal | 2 litchis | 1 baby gem squash<br/>3 pc cavatappi |
 | Wed | 1 ch salmon<br/>1 baby marrow | 1 f banana | 1 t peanut butter<br/>1 f bread |
 | Thu | 1 sl **tomato**<br/>3 green beans | 1 ch sweet potato | 1 f mango<br/>1 T yogurt |
-| Fri | 1 sl tomato<br/>1 baby gem squash | 1 T maize cereal | 1 f cucumber<br/>3 pc cavatappi |
+| Fri | 1 sl tomato<br/>1 f cucumber | 1 baby gem squash | 1 T maize cereal<br/>3 pc cavatappi |
 | Sat | 1 sl tomato<br/>1 f bread | 1 litchi | 1 strawberry<br/>1 maize cereal ball |
 
 ## Week 8 (2018-01-21 — 2018-02-27)
