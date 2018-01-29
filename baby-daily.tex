@@ -48,21 +48,17 @@
 % Support AMS symbols
 \usepackage{amssymb}
 
-% Support text colors
-\usepackage{xcolor}
+% Use TikZ for circled text
+\usepackage{tikz}
+\usetikzlibrary{shapes}
 
-% Define a command for the page layout. The arguments are the sections.
-\newcommand{\PageLayout}[3]{%
-% For some reason, the following \NewDocumentCommand does not work. It
-% complains that the paragraph ended before \PageLayout was complete.
-%\NewDocumentCommand{\PageLayout}{mmm}{%
-  \noindent%
-  \begin{minipage}[.55\textheight]{\textwidth}#1\end{minipage}%
-  \vfill%
-  \noindent%
-  \begin{minipage}[.35\textheight]{.47\textwidth}#2\end{minipage}%
-  \hfill%
-  \begin{minipage}[.35\textheight]{.47\textwidth}#3\end{minipage}%
+% Define a command for putting a rounded rectangle around text.
+% Adapted from https://tex.stackexchange.com/a/129100/16670
+\newcommand*\textcircle[1]{%
+  \tikz[baseline=(char.base)]
+  \node[rectangle, rounded corners, draw, inner sep=3pt]
+  (char)
+  {#1};
 }
 
 % Use LaTeX3 packages
@@ -113,13 +109,14 @@
   \renewcommand{\arraystretch}{1.5}
 
   % Table with column spec, header, and row to be replicated
-  \begin{tabularx}{\textwidth}{#1}
-    #2 \\
+  \begin{tabularx}{\textwidth}{#2}
+    #3 \\
     \hline
-    \ReplicateRow{#3}{#4}
+    \ReplicateRow{#1}{#4}
   \end{tabularx}
 
 }
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -135,54 +132,25 @@
 % Skip vertical space
 \vfill
 
-\PageLayout%
- {%%%%% Top %%%%%
-
-  \SectionHeader{Bottle Feedings}
-
-  % Table with 5 columns
-  \TableWithHeaderAndReplicatedRows{l | l | l | l | l}{%
-    Date &
-    Mlk &
-    Initial Vol, Time &
-    Final Vol, Time &
-    Consumed
-  }{14}{%
-    \Line{1cm} &
-    B~~F &
-    \Line{1.5cm}~ml~\Line{2cm} &
-    \Line{1.5cm}~ml~\Line{2cm} &
-    \Line{1.5cm}~ml
-  }
-
-}{%%%%% Bottom Left %%%%%
-
-  \SectionHeader{Nappy Changes}
-
-  \TableWithHeaderAndReplicatedRows{l | l | L}{%
-    Date &
-    Output &
-    Time
-  }{10}{%
-    \Line{1cm} &
-    Pee~~Poo &
-    \Line{2cm}
-  }
-
-}{%%%%% Bottom Right %%%%%
-
-  \SectionHeader{Sleep Time}
-
-  \TableWithHeaderAndReplicatedRows{l | l L}{%
-    Date &
-    Sleep &
-    Wake
-  }{10}{%
-    \Line{1cm} &
-    \Line{2cm} &
-    \Line{2cm}
-  }
-
+% Table with 5 columns
+\begin{center}
+\TableWithHeaderAndReplicatedRows%
+{27}%
+{l | >{\centering\arraybackslash}X | l | l | l | l}{%
+  Date &
+  \textcircle{Circle} One &
+  Time &
+  Time &
+  Vol &
+  Vol
+}{%
+  \Line{1cm} &
+  B~/~F~~~~Pee~/~Poo~~~~Sleep &
+  \Line{2cm} &
+  \Line{2cm} &
+  \Line{2cm} &
+  \Line{2cm}
 }
+\end{center}
 
 \end{document}
