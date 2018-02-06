@@ -2,7 +2,8 @@ language: generic
 
 before_install:
 - sudo apt-get update
-- sudo apt-get install -y --no-install-recommends texlive-latex-extra texlive-xetex latexmk
+# textlive-xetex requires lmodern: https://tex.stackexchange.com/a/653/16670
+- sudo apt-get install -y --no-install-recommends texlive-latex-extra lmodern texlive-xetex latexmk
 
 script:
 - make
