@@ -3,7 +3,8 @@ language: generic
 before_install:
 - sudo apt-get update
 # textlive-xetex requires lmodern: https://tex.stackexchange.com/a/653/16670
-- sudo apt-get install -y --no-install-recommends texlive-latex-extra lmodern texlive-xetex latexmk
+# pgf required for TikZ: # https://tex.stackexchange.com/q/140555/16670#comment317405_140555
+- sudo apt-get install -y --no-install-recommends texlive-latex-extra pgf lmodern texlive-xetex latexmk
 
 script:
 - make
