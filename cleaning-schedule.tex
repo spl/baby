@@ -1,0 +1,113 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Cleaning Weekly
+% ===============
+
+% This is a one-page document that describes the weekly cleaning duties of the
+% nanny.
+
+% Copyright (c) 2018 Sean Leather
+% Licensed under CC BY 4.0. See the accompanying LICENSE.txt.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Use 'extarticle' from 'extsizes' for a larger document font size of 14pt. The
+% larger font is useful for people with bad eyesight.
+\documentclass[14pt]{extarticle}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Full page A4 with 1-inch margins
+\usepackage[a4paper,margin=1.5cm]{geometry}
+
+% No header or footer
+\pagestyle{empty}
+
+% Use fonts with XeLaTeX
+\usepackage{fontspec}
+
+% Set the main serif and sans-serif fonts to the locally stored fonts.
+% https://tex.stackexchange.com/a/12568/16670
+\setmainfont
+  [ Path = ./fonts/NotoSerif/
+  , Extension = .ttf
+  , UprightFont = *-Regular
+  , ItalicFont = *-Italic
+  , BoldFont = *-Bold
+  , BoldItalicFont = *-BoldItalic
+  ]{NotoSerif}
+\setsansfont
+  [ Path = ./fonts/NotoSans/
+  , Extension = .ttf
+  , UprightFont = *-Regular
+  , ItalicFont = *-Italic
+  , BoldFont = *-Bold
+  , BoldItalicFont = *-BoldItalic
+  ]{NotoSans}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Title
+\begin{center}
+  \textsf{\textbf{\Large{}Cleaning Schedule}}
+\end{center}
+
+\bigskip
+
+\hrule
+
+\bigskip
+
+\textsf{\textbf{\large{}Daily}}
+
+\begin{itemize}
+  \item Wash the dishes
+  \item Clean the high chair
+  \item Sweep all rooms
+\end{itemize}
+
+\hrule
+
+\bigskip
+
+\textsf{\textbf{\large{}Weekly}}
+
+\bigskip
+
+\textsf{\underline{Monday}}
+
+\begin{itemize}
+  \item Mop all rooms
+\end{itemize}
+
+\textsf{\underline{Tuesday}}
+
+\begin{itemize}
+  \item Clean bathroom 1
+\end{itemize}
+
+\textsf{\underline{Wednesday}}
+
+\begin{itemize}
+  \item Clean all windows
+\end{itemize}
+
+\textsf{\underline{Thursday}}
+
+\begin{itemize}
+  \item Clean bathroom 2
+\end{itemize}
+
+\textsf{\underline{Friday}}
+
+\begin{itemize}
+  \item Mop all rooms
+\end{itemize}
+
+\bigskip
+
+\hrule
+
+\end{document}
