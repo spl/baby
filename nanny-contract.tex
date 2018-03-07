@@ -29,6 +29,8 @@
 % Decrease margins
 \usepackage[margin=2cm]{geometry}
 
+%-------------------------------------------------------------------------------
+
 % AMS math
 \usepackage{amsmath}
 
@@ -63,6 +65,8 @@
 \titleformat*{\subsection}{\large\sffamily}
 \titleformat*{\subsubsection}{\itshape\sffamily}
 
+%-------------------------------------------------------------------------------
+
 % Number all the section headers down to and including \paragraph
 % Useful: https://tex.stackexchange.com/q/305220/16670
 \setcounter{secnumdepth}{4}
@@ -70,7 +74,7 @@
 % Define a command to start a paragraph with no header text
 \NewDocumentCommand{\para}{}{\paragraph{}}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------------------------------------------
 
 % Use 'tabularx' tables.
 % https://en.wikibooks.org/wiki/LaTeX/Tables#The_tabularx_package
@@ -81,7 +85,7 @@
 \newcolumntype{L}{>{\raggedright\arraybackslash}X}% Left align (space right)
 \newcolumntype{R}{>{\raggedleft\arraybackslash}X}%  Right align (space left)
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------------------------------------------
 
 % Define a command for an empty underline to be used in a form. The height of
 % the line is hardcoded, and the width is provided in an argument.
@@ -90,9 +94,22 @@
   \rule{#1}{0.15mm}
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------------------------------------------
 
-\begin{document}
+% Page number footer (current of last)
+% Adapted from:
+% http://latex.org/forum/viewtopic.php?t=6835
+% https://tex.stackexchange.com/q/227/16670
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy} % Customize the header and footer
+\fancyhf{} % Clear header and footer
+\renewcommand\headrulewidth{0pt} % Remove the header rule
+% \fancyfoot[C]{\footnotesize{}Page \thepage\ of \pageref{LastPage}} % Footer
+\lfoot{\footnotesize{}Page \thepage\ of \pageref{LastPage}} % Left footer
+\rfoot{\footnotesize{}Employee's initials: \Line{1cm}} % Right footer
+
+\begin{document} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Left-justify entire document
 \raggedright
@@ -102,17 +119,13 @@
 
   \vspace{2cm}
 
-  Entered into between:
+  \textbf{Entered into between:}
 
   \vspace{0.5cm}
 
   \Line{0.75\textwidth}
 
-  (herein after referred to as ``the Employer'')
-
-  \vspace{1cm}
-
-  at the address:
+  (\textit{herein after referred to as ``the Employer''})
 
   \vspace{0.5cm}
 
@@ -120,19 +133,45 @@
 
   \Line{0.75\textwidth}
 
-  \Line{0.75\textwidth}
-
-  \Line{0.75\textwidth}
-
-  \vspace{1cm}
-
-  and:
+  (\textit{Employer address})
 
   \vspace{0.5cm}
 
   \Line{0.75\textwidth}
 
-  (herein after referred to as ``the Employee'').
+  (\textit{Employer telephone})
+
+  \vspace{0.5cm}
+
+  \textbf{and:}
+
+  \vspace{0.5cm}
+
+  \Line{0.75\textwidth}
+
+  (\textit{herein after referred to as ``the Employee''}).
+
+  \vspace{0.5cm}
+
+  \Line{0.75\textwidth}
+
+  \Line{0.75\textwidth}
+
+  (\textit{Employee address})
+
+  \vspace{0.5cm}
+
+  \Line{0.75\textwidth}
+
+  (\textit{Employee telephone})
+
+  \vspace{0.5cm}
+
+  \Line{0.75\textwidth}
+
+  (\textit{Employee South Africa ID number or passport number})
+
+  \vspace{0.5cm}
 
 \end{center}
 
@@ -154,10 +193,26 @@ No. 66 of 1995, amendments to legislation, etc.).
 \begin{center}
   \Line{0.75\textwidth}
 
-  (day-month-year)
+  (\textit{day-month-year})
 \end{center}
 
 \noindent and continue until terminated as in Section~\ref{termination}.
+
+\section{Probation}
+\label{probation}
+
+\para The Employee is initially employed for a probation period of 3 calendar
+months from the date of commencement given in Section~\ref{commencement}. The
+purpose of probation is to determine the Employee's suitability for the
+position.
+
+\para The probation period ends on the date:
+
+\begin{center}
+  \Line{0.75\textwidth}
+
+  (\textit{day-month-year})
+\end{center}
 
 \section{Termination of employment}
 \label{termination}
@@ -166,12 +221,19 @@ No. 66 of 1995, amendments to legislation, etc.).
 written notice. In case the Employee is illiterate, the notice may be given by
 the Employee verbally.
 
-\para This contract of employment may be terminated only on notice of not less
-than:
+\para This contract of employment may be terminated only:
 
 \begin{enumerate}
-  \item 1 week, if the Employee has been employed for 6 months or less; or
-  \item 4 weeks, if the Employee has been employed for more than 6 months.
+
+  \item on \textit{immediate} notice if the Employee has been employed for 3 calendar
+    months or less (as given in Section~\ref{probation});
+
+  \item on notice of \textit{not less than 1 week} if the Employee has been
+    employed for 6 calendar months or less; or
+
+  \item on notice of \textit{not less than 4 weeks} if the Employee has been
+    employed for more than 6 calendar months.
+
 \end{enumerate}
 
 \section{Place of work}
@@ -180,6 +242,10 @@ than:
 
 \begin{center}
   \Line{0.75\textwidth}
+
+  \Line{0.75\textwidth}
+
+  (\textit{address})
 \end{center}
 
 \section{Job description}
@@ -193,22 +259,14 @@ than:
    \textbf{Child minder (nanny) and domestic worker}
 \end{center}
 
-\subsection{Main duties}
-\label{main-duties}
+\subsection{Duties}
+\label{duties}
 
-\para The duties of this position are laid out in the \textit{Job duties} found
-in Appendix~\ref{job-duties}.
+\para The main duties of this position are listed in the \textit{Job duties}
+found in Appendix~\ref{job-duties}.
 
-\para The \textit{Job duties} appendix is a part of this contract. Subsequent
-changes to the duties may only be made with consultation with the Employee.
-
-\subsection{Other duties}
-\label{other-duties}
-
-\para Although the Employee has been employed in the position described in
-Section~\ref{job-title} and will therefore be responsible for the duties
-described in Section~\ref{main-duties}, the Employee may be required to perform
-other duties that may reasonably be expected of the Employee from time to time.
+\para The Employee may occasionally be asked to perform other duties that would
+reasonably be expected given the job title in Section~\ref{job-title}.
 
 \section{Wages and benefits}
 \label{wages}
@@ -228,7 +286,7 @@ Conditions of Employment Act, No. 11 of 2002) of:
 \begin{center}
   R \Line{0.75\textwidth}
 
-  (\((\text{Value of Paragraph~\ref{monthly-wage}}) * 3 / 13 / 42.5 \))
+  (\((\text{\textit{value of Paragraph~\ref{monthly-wage}}}) * 3 / 13 / 42.5 \))
 \end{center}
 
 \para\label{monthly-wage-pay-day} The monthly wage will be paid on the last
@@ -240,17 +298,20 @@ date of commencement given in Section~\ref{commencement}.
 \paragraph{Meals} The Employee is entitled to 1 meal for every full working
 day.
 
-\paragraph{Clothing} The Employee is entitled to 1 uniform for every 36 months
-of continuous service. 
+\paragraph{Clothing} The Employee is entitled to 1 uniform for every 36 calendar
+months of continuous service.
 
 \paragraph{Overtime}\label{overtime-wage} For overtime, the Employee will be
 paid:
 
 \begin{enumerate}
+
   \item one and a half (1.5) times the normal hourly wage, as in\par
-    Paragraph~\ref{hourly-wage},
+    Paragraph~\ref{hourly-wage}; and
+
   \item at the same time as other wages, as in
     Paragraph~\ref{monthly-wage-pay-day}.
+
 \end{enumerate}
 
 \section{Working time}
@@ -305,22 +366,25 @@ coincide with the leave of the Employer.
 \para For annual leave, the Employee will be paid:
 
 \begin{enumerate}
-  \item normal wages, as in Paragraph~\ref{monthly-wage},
+
+  \item normal wages, as in Paragraph~\ref{monthly-wage}; and
+
   \item at the same time as other wages, as in
     Paragraph~\ref{monthly-wage-pay-day}.
+
 \end{enumerate}
 
 \subsection{Sick leave}
 \label{sick-leave}
 
-\para During every sick leave cycle of 36 months (with the exception of
+\para During every sick leave cycle of 36 calendar months (with the exception of
 Paragraph~\ref{sick-leave-first-six-months}), the Employee is entitled to an
 amount of paid sick leave equal to the number of days the Employee would
 normally work during a period of 6 weeks.
 
-\para\label{sick-leave-first-six-months} During the first 6 months of
-employment the Employee is entitled to 1 day's paid sick leave for every 26
-days worked.
+\para\label{sick-leave-first-six-months} During the first 6 calendar months of
+employment the Employee is entitled to 1 day's paid sick leave for every 26 days
+worked.
 
 \para The Employee must notify the Employer as soon as possible in case of an
 absence from work for illness.
@@ -335,24 +399,31 @@ required to pay the Employee.
 \para For sick leave, the Employee will be paid:
 
 \begin{enumerate}
-  \item normal wages, as in Paragraph~\ref{monthly-wage},
+
+  \item normal wages, as in Paragraph~\ref{monthly-wage}; and
+
   \item at the same time as other wages, as in
     Paragraph~\ref{monthly-wage-pay-day}.
+
 \end{enumerate}
 
 \subsection{Family responsibility leave}
 \label{family-responsibility-leave}
 
-\para The Employee is entitled to 3 days paid family responsibility leave
-during every 12 months of continuous employment.
+\para The Employee is entitled to 3 days paid family responsibility leave during
+every 12 calendar months of continuous employment.
 
 \para Family responsibility leave may be taken:
 
 \begin{enumerate}
-  \item when the Employee's child is born,
-  \item when the Employee's child is sick, or
-  \item in the event of the death of the Employee's spouse, parent,
-    grandparent, grandchild, or sibling.
+
+  \item when the Employee's child is born;
+
+  \item when the Employee's child is sick; or
+
+  \item in the event of the death of the Employee's spouse, parent, grandparent,
+    grandchild, or sibling.
+
 \end{enumerate}
 
 \para The Employee must notify the Employer as soon as possible in case of an
@@ -363,9 +434,12 @@ absence from work for family responsibility.
 \para For family responsibility leave, the Employee will be paid:
 
 \begin{enumerate}
-  \item normal wages, as in Paragraph~\ref{monthly-wage},
+
+  \item normal wages, as in Paragraph~\ref{monthly-wage}; and
+
   \item at the same time as other wages, as in
     Paragraph~\ref{monthly-wage-pay-day}.
+
 \end{enumerate}
 
 \subsection{Unpaid leave}
@@ -374,10 +448,14 @@ absence from work for family responsibility.
 \para Unpaid leave may be granted to the Employee when:
 
 \begin{enumerate}
-  \item annual leave has been depleted,
-  \item sick leave cannot be reasonably substantiated or has been depleted, and
+
+  \item annual leave has been depleted;
+
+  \item sick leave cannot be reasonably substantiated or has been depleted; and
+
   \item family responsibility leave cannot be reasonably substantiated or has
     been depleted.
+
 \end{enumerate}
 
 \para The Employee may apply in writing to be granted unpaid leave for an
@@ -392,17 +470,15 @@ the Employee in terms of this contract.
 
 \para For unpaid leave, the Employee is not entitled to wages.
 
-\section{General}
-\label{general}
+\section{Changes to contract}
+\label{changes}
 
 \para Any changes to this contract will only be valid if they are in writing
 and have been agreed upon and signed by both parties.
 
-\vspace{1cm}
+\pagebreak %--------------------------------------------------------------------
 
-\noindent\hrulefill %-----------------------------------------------------------
-
-\vspace{1cm}
+\rfoot{}
 
 \begin{center}
   Thus done and signed at:
@@ -413,7 +489,7 @@ and have been agreed upon and signed by both parties.
 
   (location)
 
-  \vspace{1cm}
+  \vspace{0.5cm}
 
   on:
 
@@ -421,9 +497,9 @@ and have been agreed upon and signed by both parties.
 
   \Line{0.75\textwidth}
 
-  (day-month-year)
+  (\textit{day-month-year})
 
-  \vspace{1cm}
+  \vspace{0.5cm}
 
   by:
 
@@ -431,9 +507,9 @@ and have been agreed upon and signed by both parties.
 
   \Line{0.75\textwidth}
 
-  (the Employer's signature)
+  (\textit{Employer's signature})
 
-  \vspace{1cm}
+  \vspace{0.5cm}
 
   and:
 
@@ -441,9 +517,9 @@ and have been agreed upon and signed by both parties.
 
   \Line{0.75\textwidth}
 
-  (the Employee's signature)
+  (\textit{Employee's signature})
 
-  \vspace{1cm}
+  \vspace{0.5cm}
 
   with witnesses (names and signatures):
 
@@ -457,8 +533,7 @@ and have been agreed upon and signed by both parties.
 
 \end{center}
 
-% New page
-\pagebreak
+\pagebreak %--------------------------------------------------------------------
 
 \appendix
 
@@ -466,7 +541,7 @@ and have been agreed upon and signed by both parties.
 \label{job-duties}
 
 This appendix describes the main job duties as referenced in
-Section~\ref{main-duties}.
+Section~\ref{duties}.
 
 \begin{enumerate}
   \item Minding a child
@@ -502,4 +577,4 @@ Section~\ref{main-duties}.
     \end{itemize}
 \end{enumerate}
 
-\end{document}
+\end{document} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
